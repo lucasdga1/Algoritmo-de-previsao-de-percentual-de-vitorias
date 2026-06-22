@@ -1,4 +1,4 @@
-# Algoritmo-de-previsao-de-percentual-de-vitorias
+# Algoritmo de previsão de percentual de vitórias
 
 # Objetivo
 * O objetivo principal deste projeto é desenvolver um algoritmo de machine learning capaz de prever a quantidade percentual de vitórias esperadas de uma equipe de basquete, ao final de uma temporada, de acordo com as estatísticas fornecidas ao modelo.
