@@ -132,7 +132,7 @@
 * FG% = 0,87
 * PPG = 0,87
 
-###Os que demonstram correlação negativa são:
+### Os que demonstram correlação negativa são:
 
 * DRTG = -0,81
 * TOV = -0,61
