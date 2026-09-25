@@ -1,0 +1,2785 @@
+Season,Casa,Placar_casa,Placar_visitante,Visitante
+2016,Bauru,97,100,Flamengo
+2016,Pinheiros,75,79,Vitória
+2016,Minas,83,63,Caxias do Sul Basquete
+2016,Franca,84,85,Flamengo
+2016,Bauru,84,76,Macaé Basquete
+2016,Pinheiros,80,74,Basquete Cearense
+2016,Minas,83,85,Vasco da Gama
+2016,Brasília,91,82,Caxias do Sul Basquete
+2016,Franca,86,79,Macaé Basquete
+2016,Brasília,95,72,Vasco da Gama
+2016,Campo Mourão,73,78,L. Sorocabana
+2016,Mogi,86,55,Paulistano
+2016,Vitória,88,77,Brasília
+2016,Macaé Basquete,90,92,Pinheiros
+2016,Basquete Cearense,78,71,Minas
+2016,Paulistano,90,66,Bauru
+2016,L. Sorocabana,87,66,Franca
+2016,Vasco da Gama,81,91,Campo Mourão
+2016,Caxias do Sul Basquete,80,87,Mogi
+2016,Basquete Cearense,72,81,Brasília
+2016,Vitória,76,74,Minas
+2016,Flamengo,96,88,Pinheiros
+2016,Paulistano,73,76,Franca
+2016,L. Sorocabana,70,84,Bauru
+2016,Vasco da Gama,94,70,Mogi
+2016,Caxias do Sul Basquete,69,78,Campo Mourão
+2016,Vasco da Gama,71,69,Basquete Cearense
+2016,Caxias do Sul Basquete,69,70,Vitória
+2016,Pinheiros,84,69,Bauru
+2016,Paulistano,74,90,Brasília
+2016,Vasco da Gama,60,70,Vitória
+2016,L. Sorocabana,63,69,Minas
+2016,Caxias do Sul Basquete,65,74,Basquete Cearense
+2016,Campo Mourão,69,90,Flamengo
+2016,Pinheiros,95,83,Franca
+2016,L. Sorocabana,66,73,Brasília
+2016,Campo Mourão,71,68,Macaé Basquete
+2016,Paulistano,98,86,Minas
+2016,Bauru,82,58,Vasco da Gama
+2016,Franca,85,66,Caxias do Sul Basquete
+2016,Brasília,96,80,Pinheiros
+2016,Campo Mourão,70,64,Vitória
+2016,Macaé Basquete,84,96,Paulistano
+2016,Bauru,82,64,Caxias do Sul Basquete
+2016,Flamengo,81,74,L. Sorocabana
+2016,Franca,67,71,Vasco da Gama
+2016,Minas,88,94,Pinheiros
+2016,Campo Mourão,73,89,Basquete Cearense
+2016,Flamengo,81,72,Paulistano
+2016,Macaé Basquete,68,66,L. Sorocabana
+2016,Mogi,81,77,L. Sorocabana
+2016,Campo Mourão,74,92,Paulistano
+2016,Flamengo,85,66,Macaé Basquete
+2016,Mogi,92,75,Basquete Cearense
+2016,Pinheiros,80,63,L. Sorocabana
+2016,Minas,72,66,Campo Mourão
+2016,Brasília,86,75,Mogi
+2016,Pinheiros,77,92,Paulistano
+2016,Caxias do Sul Basquete,80,104,Flamengo
+2016,Minas,84,104,Mogi
+2016,Brasília,76,78,Campo Mourão
+2016,Basquete Cearense,95,81,Franca
+2016,Vitória,84,90,Bauru
+2016,Caxias do Sul Basquete,87,83,Macaé Basquete
+2016,Basquete Cearense,73,79,Bauru
+2016,Vitória,77,86,Franca
+2016,Pinheiros,76,78,Campo Mourão
+2016,Macaé Basquete,59,67,Vitória
+2016,Flamengo,88,94,Basquete Cearense
+2016,Paulistano,82,49,Caxias do Sul Basquete
+2016,Bauru,75,86,Minas
+2016,Franca,77,70,Brasília
+2016,L. Sorocabana,74,70,Vasco da Gama
+2016,Pinheiros,74,67,Mogi
+2016,Macaé Basquete,64,53,Basquete Cearense
+2016,Bauru,62,79,Brasília
+2016,L. Sorocabana,83,70,Caxias do Sul Basquete
+2016,Franca,75,74,Minas
+2016,Flamengo,98,87,Vitória
+2016,Flamengo,94,60,Caxias do Sul Basquete
+2016,Paulistano,83,86,Vasco da Gama
+2016,Campo Mourão,95,94,Mogi
+2016,Bauru,89,69,Franca
+2016,Caxias do Sul Basquete,78,73,Vasco da Gama
+2016,L. Sorocabana,71,92,Paulistano
+2016,Brasília,92,79,Minas
+2016,Basquete Cearense,77,82,Vitória
+2016,Minas,86,78,Macaé Basquete
+2016,Mogi,89,66,Bauru
+2016,Campo Mourão,81,83,Franca
+2016,Caxias do Sul Basquete,93,99,Pinheiros
+2016,Basquete Cearense,74,76,Paulistano
+2016,Vitória,74,69,L. Sorocabana
+2016,Minas,60,89,Flamengo
+2016,Brasília,74,72,Macaé Basquete
+2016,Mogi,82,63,Franca
+2016,Campo Mourão,62,82,Bauru
+2016,Vasco da Gama,72,70,Pinheiros
+2016,Basquete Cearense,86,85,L. Sorocabana
+2016,Vitória,85,73,Paulistano
+2016,Brasília,95,83,Flamengo
+2016,Macaé Basquete,58,69,Vasco da Gama
+2016,Mogi,57,83,Flamengo
+2016,Mogi,69,75,Macaé Basquete
+2016,Vasco da Gama,85,76,Brasília
+2016,Flamengo,80,83,Franca
+2016,Mogi,75,72,Vitória
+2016,Macaé Basquete,75,78,Franca
+2016,Flamengo,63,72,Bauru
+2016,Paulistano,78,85,Campo Mourão
+2016,L. Sorocabana,60,90,Mogi
+2016,Basquete Cearense,74,77,Pinheiros
+2016,Macaé Basquete,67,87,Bauru
+2016,Caxias do Sul Basquete,76,81,Brasília
+2016,Vasco da Gama,75,87,Minas
+2016,Paulistano,77,78,Mogi
+2016,L. Sorocabana,64,74,Campo Mourão
+2016,Vitória,67,72,Pinheiros
+2016,Vasco da Gama,78,77,Flamengo
+2016,Caxias do Sul Basquete,66,52,Minas
+2016,Pinheiros,97,90,Macaé Basquete
+2016,Bauru,78,68,Paulistano
+2016,Franca,90,68,L. Sorocabana
+2016,Minas,62,66,Basquete Cearense
+2016,Brasília,70,78,Vitória
+2016,Pinheiros,77,84,Flamengo
+2016,Mogi,73,64,Caxias do Sul Basquete
+2016,Bauru,87,55,L. Sorocabana
+2016,Franca,78,71,Paulistano
+2016,Minas,78,82,Vitória
+2016,Brasília,88,52,Basquete Cearense
+2016,Mogi,80,73,Vasco da Gama
+2016,Campo Mourão,83,74,Caxias do Sul Basquete
+2016,Vasco da Gama,77,76,Macaé Basquete
+2016,Campo Mourão,77,82,Vasco da Gama
+2016,Minas,68,61,L. Sorocabana
+2016,Macaé Basquete,78,91,Campo Mourão
+2016,Flamengo,96,87,Mogi
+2016,Bauru,74,64,Pinheiros
+2016,Brasília,85,76,Paulistano
+2016,Minas,85,96,Paulistano
+2016,Macaé Basquete,69,90,Mogi
+2016,Flamengo,79,69,Campo Mourão
+2016,Brasília,79,77,L. Sorocabana
+2016,Franca,99,78,Pinheiros
+2016,Basquete Cearense,88,78,Caxias do Sul Basquete
+2016,Vitória,73,64,Vasco da Gama
+2016,Basquete Cearense,89,80,Vasco da Gama
+2016,Vitória,76,67,Caxias do Sul Basquete
+2016,Vasco da Gama,64,90,Bauru
+2016,Paulistano,85,65,Macaé Basquete
+2016,L. Sorocabana,58,90,Flamengo
+2016,Caxias do Sul Basquete,95,100,Franca
+2016,Pinheiros,86,78,Brasília
+2016,Basquete Cearense,77,85,Mogi
+2016,Vitória,86,79,Campo Mourão
+2016,Paulistano,103,96,Flamengo
+2016,L. Sorocabana,73,77,Macaé Basquete
+2016,Caxias do Sul Basquete,76,74,Bauru
+2016,Vasco da Gama,79,77,Franca
+2016,Pinheiros,95,92,Minas
+2016,Basquete Cearense,75,81,Campo Mourão
+2016,Vitória,60,63,Mogi
+2016,Franca,92,85,Bauru
+2016,Mogi,84,58,Brasília
+2016,Bauru,83,71,Vitória
+2016,Franca,78,82,Basquete Cearense
+2016,Campo Mourão,114,105,Minas
+2016,L. Sorocabana,64,63,Pinheiros
+2016,Bauru,78,72,Basquete Cearense
+2016,Mogi,87,64,Minas
+2016,Franca,81,74,Vitória
+2016,Campo Mourão,80,90,Brasília
+2016,Paulistano,67,74,Pinheiros
+2016,Flamengo,94,86,Vasco da Gama
+2016,Macaé Basquete,73,67,Caxias do Sul Basquete
+2016,Minas,62,74,Brasília
+2016,Paulistano,92,57,L. Sorocabana
+2016,Mogi,74,71,Campo Mourão
+2016,Macaé Basquete,80,82,Flamengo
+2016,Vitória,82,68,Basquete Cearense
+2016,Vasco da Gama,57,76,Caxias do Sul Basquete
+2016,Vasco da Gama,89,66,L. Sorocabana
+2016,Basquete Cearense,81,94,Flamengo
+2016,Vitória,84,90,Macaé Basquete
+2016,Caxias do Sul Basquete,80,82,Paulistano
+2016,Campo Mourão,81,83,Pinheiros
+2016,Minas,77,89,Bauru
+2016,Brasília,88,92,Franca
+2016,Basquete Cearense,77,71,Macaé Basquete
+2016,Vitória,87,93,Flamengo
+2016,Mogi,90,78,Pinheiros
+2016,Caxias do Sul Basquete,59,67,L. Sorocabana
+2016,Vasco da Gama,67,82,Paulistano
+2016,Brasília,92,89,Bauru
+2016,Minas,80,84,Franca
+2016,Macaé Basquete,87,74,Brasília
+2016,Flamengo,108,74,Minas
+2016,Pinheiros,95,69,Caxias do Sul Basquete
+2016,Paulistano,79,67,Basquete Cearense
+2016,Bauru,80,87,Mogi
+2016,L. Sorocabana,62,69,Vitória
+2016,Franca,61,42,Campo Mourão
+2016,Flamengo,71,77,Brasília
+2016,Macaé Basquete,99,65,Minas
+2016,Pinheiros,72,81,Vasco da Gama
+2016,L. Sorocabana,63,65,Basquete Cearense
+2016,Paulistano,83,66,Vitória
+2016,Bauru,83,54,Campo Mourão
+2016,Franca,82,78,Mogi
+2016,Vasco da Gama,74,83,Pinheiros
+2016,Macaé Basquete,70,80,Bauru
+2016,Basquete Cearense,87,84,Paulistano
+2016,Campo Mourão,63,85,Vitória
+2016,Pinheiros,80,85,Vasco da Gama
+2016,Bauru,91,79,Macaé Basquete
+2016,Pinheiros,81,78,Vasco da Gama
+2016,Paulistano,83,75,Basquete Cearense
+2016,Bauru,93,83,Macaé Basquete
+2016,Paulistano,81,85,Basquete Cearense
+2016,Vitória,82,80,Campo Mourão
+2016,Vitória,72,81,Campo Mourão
+2016,Basquete Cearense,67,82,Paulistano
+2016,Vasco da Gama,79,73,Pinheiros
+2016,Campo Mourão,68,66,Vitória
+2016,Pinheiros,93,82,Vasco da Gama
+2016,Paulistano,76,72,Basquete Cearense
+2016,Vitória,73,60,Campo Mourão
+2016,Bauru,87,88,Brasília
+2016,Pinheiros,85,96,Flamengo
+2016,Paulistano,80,65,Franca
+2016,Vitória,83,89,Mogi
+2016,Brasília,73,77,Bauru
+2016,Flamengo,83,73,Pinheiros
+2016,Franca,92,79,Paulistano
+2016,Brasília,76,85,Bauru
+2016,Flamengo,79,90,Pinheiros
+2016,Mogi,83,87,Vitória
+2016,Franca,66,69,Paulistano
+2016,Mogi,88,69,Vitória
+2016,Bauru,80,78,Brasília
+2016,Pinheiros,102,98,Flamengo
+2016,Paulistano,87,105,Franca
+2016,Vitória,82,80,Mogi
+2016,Flamengo,75,78,Pinheiros
+2016,Mogi,85,95,Vitória
+2016,Franca,67,80,Paulistano
+2016,Pinheiros,98,86,Bauru
+2016,Vitória,84,93,Paulistano
+2016,Paulistano,82,72,Vitória
+2016,Bauru,83,89,Pinheiros
+2016,Paulistano,70,67,Vitória
+2016,Bauru,94,77,Pinheiros
+2016,Pinheiros,72,76,Bauru
+2016,Bauru,66,60,Pinheiros
+2016,Paulistano,82,78,Bauru
+2016,Bauru,74,78,Paulistano
+2016,Bauru,90,79,Paulistano
+2016,Paulistano,64,81,Bauru
+2016,Bauru,92,73,Paulistano
+2017,Bauru,72,71,Paulistano
+2017,Franca,73,77,Campo Mourão
+2017,Minas,82,81,Vasco da Gama
+2017,L. Sorocabana,91,76,Basquete Cearense
+2017,Bauru,82,80,Campo Mourão
+2017,L. Sorocabana,80,75,Vitória
+2017,Mogi,80,62,Basquete Cearense
+2017,Franca,97,73,Paulistano
+2017,Mogi,80,75,Vitória
+2017,Paulistano,72,67,Flamengo
+2017,Vasco da Gama,71,82,Pinheiros
+2017,Campo Mourão,69,77,Minas
+2017,Joinville / AABJ,66,59,Franca
+2017,Caxias do Sul Basquete,70,69,Bauru
+2017,Paulistano,93,86,Minas
+2017,Vasco da Gama,76,68,L. Sorocabana
+2017,Botafogo,73,81,Pinheiros
+2017,Campo Mourão,82,89,Flamengo
+2017,Joinville / AABJ,71,97,Bauru
+2017,Caxias do Sul Basquete,80,86,Franca
+2017,Botafogo,70,64,L. Sorocabana
+2017,Vasco da Gama,75,82,Mogi
+2017,Pinheiros,92,79,Basquete Cearense
+2017,Botafogo,65,70,Mogi
+2017,Campo Mourão,63,84,Caxias do Sul Basquete
+2017,Minas,74,56,Botafogo
+2017,Minas,86,84,Caxias do Sul Basquete
+2017,Vitória,86,76,Botafogo
+2017,Flamengo,79,69,Caxias do Sul Basquete
+2017,L. Sorocabana,63,68,Campo Mourão
+2017,Basquete Cearense,61,47,Botafogo
+2017,Franca,87,83,Bauru
+2017,Mogi,72,69,Campo Mourão
+2017,Flamengo,86,75,Joinville / AABJ
+2017,Minas,69,52,Joinville / AABJ
+2017,Caxias do Sul Basquete,82,66,L. Sorocabana
+2017,Pinheiros,80,51,Campo Mourão
+2017,Basquete Cearense,85,76,Vasco da Gama
+2017,Pinheiros,81,65,Paulistano
+2017,Joinville / AABJ,77,75,L. Sorocabana
+2017,Caxias do Sul Basquete,66,65,Mogi
+2017,Vitória,77,75,Vasco da Gama
+2017,Paulistano,96,84,Basquete Cearense
+2017,Joinville / AABJ,61,67,Mogi
+2017,Caxias do Sul Basquete,71,86,Pinheiros
+2017,Joinville / AABJ,82,90,Pinheiros
+2017,Campo Mourão,60,66,Basquete Cearense
+2017,Paulistano,84,66,Vitória
+2017,Mogi,72,71,Franca
+2017,L. Sorocabana,81,89,Bauru
+2017,Campo Mourão,65,72,Vitória
+2017,Pinheiros,77,93,Bauru
+2017,L. Sorocabana,79,87,Franca
+2017,Minas,76,83,Flamengo
+2017,Mogi,72,69,Bauru
+2017,Pinheiros,80,77,Vitória
+2017,L. Sorocabana,75,78,Paulistano
+2017,Vasco da Gama,72,68,Botafogo
+2017,Pinheiros,66,73,Mogi
+2017,Basquete Cearense,67,76,Caxias do Sul Basquete
+2017,Vitória,88,68,Joinville / AABJ
+2017,Vasco da Gama,84,59,Campo Mourão
+2017,Botafogo,74,93,Paulistano
+2017,Bauru,71,97,Flamengo
+2017,Franca,75,55,Minas
+2017,L. Sorocabana,75,77,Pinheiros
+2017,Basquete Cearense,80,66,Joinville / AABJ
+2017,Vitória,70,69,Caxias do Sul Basquete
+2017,Botafogo,67,64,Campo Mourão
+2017,Vasco da Gama,71,77,Paulistano
+2017,Franca,100,82,Flamengo
+2017,Bauru,89,70,Minas
+2017,Vitória,89,68,Basquete Cearense
+2017,Caxias do Sul Basquete,72,63,Joinville / AABJ
+2017,Pinheiros,77,90,Franca
+2017,Flamengo,89,81,Vasco da Gama
+2017,Mogi,80,84,Paulistano
+2017,Botafogo,60,77,Bauru
+2017,Minas,71,61,L. Sorocabana
+2017,Franca,68,55,Vitória
+2017,Minas,65,82,Mogi
+2017,Flamengo,72,68,Pinheiros
+2017,Paulistano,92,67,Campo Mourão
+2017,Joinville / AABJ,74,94,Vasco da Gama
+2017,Bauru,77,66,Vitória
+2017,Franca,79,59,Basquete Cearense
+2017,Flamengo,77,71,Mogi
+2017,Minas,80,75,Pinheiros
+2017,Joinville / AABJ,68,63,Botafogo
+2017,Bauru,87,82,Basquete Cearense
+2017,Caxias do Sul Basquete,81,69,Vasco da Gama
+2017,Flamengo,82,67,L. Sorocabana
+2017,Caxias do Sul Basquete,73,63,Botafogo
+2017,Vasco da Gama,67,81,Franca
+2017,Paulistano,75,64,Joinville / AABJ
+2017,Basquete Cearense,75,92,Flamengo
+2017,Vitória,82,57,Minas
+2017,Botafogo,63,67,Franca
+2017,Vitória,68,76,Flamengo
+2017,Paulistano,88,70,Caxias do Sul Basquete
+2017,Campo Mourão,72,75,Joinville / AABJ
+2017,Basquete Cearense,66,58,Minas
+2017,Mogi,82,73,L. Sorocabana
+2017,Vasco da Gama,86,87,Bauru
+2017,Vitória,79,76,Pinheiros
+2017,Flamengo,107,54,Botafogo
+2017,Basquete Cearense,66,64,Pinheiros
+2017,Paulistano,88,79,Bauru
+2017,Campo Mourão,60,88,Franca
+2017,Paulistano,88,74,Franca
+2017,Mogi,84,70,Botafogo
+2017,Campo Mourão,59,97,Bauru
+2017,Vasco da Gama,70,54,Minas
+2017,Basquete Cearense,83,64,L. Sorocabana
+2017,Vitória,95,69,L. Sorocabana
+2017,Joinville / AABJ,70,76,Caxias do Sul Basquete
+2017,Vasco da Gama,75,89,Flamengo
+2017,Minas,74,81,Campo Mourão
+2017,Franca,82,74,Caxias do Sul Basquete
+2017,L. Sorocabana,75,80,Vasco da Gama
+2017,Bauru,88,41,Joinville / AABJ
+2017,Basquete Cearense,78,77,Vitória
+2017,Minas,80,88,Paulistano
+2017,Pinheiros,80,77,Botafogo
+2017,Mogi,89,80,Vasco da Gama
+2017,Flamengo,92,69,Campo Mourão
+2017,Bauru,73,85,Caxias do Sul Basquete
+2017,Franca,72,56,Joinville / AABJ
+2017,Flamengo,71,72,Paulistano
+2017,Pinheiros,72,76,Vasco da Gama
+2017,L. Sorocabana,68,75,Botafogo
+2017,Campo Mourão,69,97,Mogi
+2017,Bauru,60,81,Franca
+2017,Joinville / AABJ,81,91,Flamengo
+2017,Vasco da Gama,85,89,Vitória
+2017,Botafogo,70,68,Basquete Cearense
+2017,Caxias do Sul Basquete,71,91,Minas
+2017,Paulistano,84,59,L. Sorocabana
+2017,Campo Mourão,60,64,Pinheiros
+2017,Joinville / AABJ,66,73,Minas
+2017,Botafogo,94,74,Vitória
+2017,Vasco da Gama,96,92,Basquete Cearense
+2017,Caxias do Sul Basquete,75,98,Flamengo
+2017,Paulistano,84,67,Mogi
+2017,Paulistano,73,72,Pinheiros
+2017,Pinheiros,90,75,Caxias do Sul Basquete
+2017,L. Sorocabana,51,64,Joinville / AABJ
+2017,Minas,66,81,Bauru
+2017,Vitória,88,79,Campo Mourão
+2017,Basquete Cearense,60,81,Paulistano
+2017,Flamengo,86,66,Franca
+2017,Pinheiros,108,59,Joinville / AABJ
+2017,Botafogo,87,94,Vasco da Gama
+2017,Mogi,76,75,Caxias do Sul Basquete
+2017,Flamengo,75,61,Bauru
+2017,Basquete Cearense,77,69,Campo Mourão
+2017,Vitória,68,90,Paulistano
+2017,Minas,65,84,Franca
+2017,Mogi,77,67,Joinville / AABJ
+2017,L. Sorocabana,71,74,Caxias do Sul Basquete
+2017,Botafogo,70,76,Minas
+2017,Campo Mourão,72,76,L. Sorocabana
+2017,Basquete Cearense,82,80,Mogi
+2017,Vitória,77,72,Mogi
+2017,Caxias do Sul Basquete,67,60,Basquete Cearense
+2017,Campo Mourão,71,60,Botafogo
+2017,Joinville / AABJ,52,68,Vitória
+2017,Bauru,95,73,L. Sorocabana
+2017,Paulistano,112,64,Botafogo
+2017,Campo Mourão,79,89,Vasco da Gama
+2017,Joinville / AABJ,73,59,Basquete Cearense
+2017,Bauru,85,84,Pinheiros
+2017,Caxias do Sul Basquete,79,78,Vitória
+2017,Franca,74,67,L. Sorocabana
+2017,Paulistano,102,59,Vasco da Gama
+2017,Flamengo,96,84,Minas
+2017,Franca,87,79,Pinheiros
+2017,Vitória,82,77,Bauru
+2017,L. Sorocabana,63,70,Flamengo
+2017,Botafogo,88,77,Joinville / AABJ
+2017,Vasco da Gama,70,87,Caxias do Sul Basquete
+2017,Pinheiros,67,78,Flamengo
+2017,Vasco da Gama,83,56,Joinville / AABJ
+2017,Botafogo,76,67,Caxias do Sul Basquete
+2017,Franca,75,73,Mogi
+2017,Campo Mourão,66,111,Paulistano
+2017,Mogi,72,75,Flamengo
+2017,Pinheiros,62,64,Minas
+2017,Basquete Cearense,75,73,Franca
+2017,Botafogo,84,90,Flamengo
+2017,Mogi,76,39,Minas
+2017,Vitória,85,92,Franca
+2017,L. Sorocabana,54,75,Minas
+2017,Bauru,75,76,Mogi
+2017,Basquete Cearense,81,80,Bauru
+2017,Franca,93,61,Vasco da Gama
+2017,Flamengo,87,85,Basquete Cearense
+2017,Minas,80,78,Vitória
+2017,Caxias do Sul Basquete,75,66,Campo Mourão
+2017,Joinville / AABJ,66,86,Paulistano
+2017,Bauru,103,78,Botafogo
+2017,Franca,104,67,Botafogo
+2017,Bauru,83,88,Vasco da Gama
+2017,Minas,75,63,Basquete Cearense
+2017,Flamengo,89,75,Vitória
+2017,Joinville / AABJ,83,81,Campo Mourão
+2017,Caxias do Sul Basquete,81,80,Paulistano
+2017,Pinheiros,80,69,L. Sorocabana
+2017,Mogi,69,84,Pinheiros
+2017,L. Sorocabana,69,74,Mogi
+2017,Botafogo,90,95,Caxias do Sul Basquete
+2017,Minas,80,65,Vitória
+2017,Vasco da Gama,84,93,Bauru
+2017,Basquete Cearense,73,82,Pinheiros
+2017,Caxias do Sul Basquete,79,52,Botafogo
+2017,Vitória,71,63,Minas
+2017,Caxias do Sul Basquete,80,64,Botafogo
+2017,Bauru,89,92,Vasco da Gama
+2017,Pinheiros,60,64,Basquete Cearense
+2017,Vitória,74,65,Minas
+2017,Bauru,83,79,Vasco da Gama
+2017,Pinheiros,62,75,Basquete Cearense
+2017,Minas,75,64,Vitória
+2017,Vasco da Gama,103,104,Bauru
+2017,Basquete Cearense,64,63,Pinheiros
+2017,Vitória,111,117,Minas
+2017,Caxias do Sul Basquete,60,63,Mogi
+2017,Minas,70,84,Flamengo
+2017,Bauru,81,76,Franca
+2017,Basquete Cearense,72,67,Paulistano
+2017,Flamengo,101,74,Minas
+2017,Mogi,69,57,Caxias do Sul Basquete
+2017,Flamengo,97,92,Minas
+2017,Franca,77,83,Bauru
+2017,Paulistano,93,89,Basquete Cearense
+2017,Mogi,54,65,Caxias do Sul Basquete
+2017,Franca,61,69,Bauru
+2017,Paulistano,79,68,Basquete Cearense
+2017,Caxias do Sul Basquete,70,80,Mogi
+2017,Basquete Cearense,57,98,Paulistano
+2017,Mogi,79,62,Flamengo
+2017,Bauru,72,78,Paulistano
+2017,Flamengo,74,88,Mogi
+2017,Paulistano,59,70,Bauru
+2017,Flamengo,71,64,Mogi
+2017,Paulistano,95,64,Bauru
+2017,Bauru,82,75,Paulistano
+2017,Mogi,89,72,Flamengo
+2017,Paulistano,80,77,Bauru
+2017,Mogi,82,99,Paulistano
+2017,Paulistano,70,84,Mogi
+2017,Paulistano,88,84,Mogi
+2017,Mogi,76,82,Paulistano
+2018,Paulistano,75,85,Mogi
+2018,Brasília,76,77,Vasco da Gama
+2018,Basquete Cearense,54,73,Flamengo
+2018,Pinheiros,92,81,Bauru
+2018,Brasília,69,94,Flamengo
+2018,Botafogo,62,64,Joinville / AABJ
+2018,Pinheiros,88,86,São José
+2018,Corinthians,80,83,Franca
+2018,São José,92,86,Basquete Cearense
+2018,Flamengo,76,75,Joinville / AABJ
+2018,Mogi,77,83,Pinheiros
+2018,Vasco da Gama,66,74,Joinville / AABJ
+2018,Corinthians,83,92,Paulistano
+2018,Franca,74,77,Botafogo
+2018,Mogi,100,72,Basquete Cearense
+2018,Joinville / AABJ,68,87,Pinheiros
+2018,Paulistano,72,60,Basquete Cearense
+2018,São José,62,71,Minas
+2018,Bauru,76,80,Vasco da Gama
+2018,Paulistano,81,76,Minas
+2018,Corinthians,91,79,Brasília
+2018,Bauru,82,63,Botafogo
+2018,Franca,101,75,Vasco da Gama
+2018,Pinheiros,76,85,Corinthians
+2018,Mogi,97,82,Brasília
+2018,Bauru,69,70,Franca
+2018,Minas,85,73,Joinville / AABJ
+2018,Botafogo,77,74,Paulistano
+2018,Flamengo,93,73,Mogi
+2018,Minas,93,65,Vasco da Gama
+2018,Basquete Cearense,82,91,Franca
+2018,Brasília,105,113,Bauru
+2018,Joinville / AABJ,72,98,Corinthians
+2018,Botafogo,90,86,Mogi
+2018,Flamengo,61,74,Pinheiros
+2018,Brasília,73,101,Franca
+2018,Basquete Cearense,82,73,Bauru
+2018,Vasco da Gama,60,76,Paulistano
+2018,Flamengo,72,64,Corinthians
+2018,Minas,83,79,Pinheiros
+2018,São José,74,96,Mogi
+2018,Bauru,47,77,Flamengo
+2018,Franca,83,66,Minas
+2018,Joinville / AABJ,72,69,Basquete Cearense
+2018,Pinheiros,71,82,Paulistano
+2018,Bauru,81,68,Minas
+2018,Franca,84,77,Flamengo
+2018,Botafogo,86,71,Corinthians
+2018,Flamengo,90,70,Vasco da Gama
+2018,Bauru,63,75,São José
+2018,Pinheiros,88,86,Basquete Cearense
+2018,Corinthians,57,55,Basquete Cearense
+2018,Joinville / AABJ,89,56,Bauru
+2018,Minas,97,99,Mogi
+2018,São José,57,64,Flamengo
+2018,Brasília,82,64,Botafogo
+2018,Mogi,73,67,Bauru
+2018,Basquete Cearense,65,54,Botafogo
+2018,Paulistano,97,84,Flamengo
+2018,Vasco da Gama,78,68,Corinthians
+2018,Mogi,89,95,Franca
+2018,Paulistano,88,82,São José
+2018,Pinheiros,79,61,Brasília
+2018,Franca,95,93,São José
+2018,Joinville / AABJ,77,84,Brasília
+2018,Franca,89,73,Paulistano
+2018,Minas,72,69,Corinthians
+2018,Botafogo,84,74,São José
+2018,Vasco da Gama,81,77,São José
+2018,Vasco da Gama,79,97,Botafogo
+2018,Minas,85,77,Botafogo
+2018,Pinheiros,91,79,Franca
+2018,Corinthians,74,82,São José
+2018,Basquete Cearense,76,63,Brasília
+2018,Bauru,85,64,Paulistano
+2018,Mogi,81,67,Joinville / AABJ
+2018,Basquete Cearense,66,60,Vasco da Gama
+2018,Flamengo,102,73,Botafogo
+2018,Mogi,102,96,Corinthians
+2018,São José,102,100,Joinville / AABJ
+2018,Brasília,88,77,Minas
+2018,Paulistano,109,97,Joinville / AABJ
+2018,Vasco da Gama,65,71,Pinheiros
+2018,Basquete Cearense,70,61,Minas
+2018,São José,87,75,Brasília
+2018,Botafogo,76,91,Pinheiros
+2018,Vasco da Gama,75,88,Mogi
+2018,Corinthians,87,83,Bauru
+2018,Minas,80,91,Flamengo
+2018,Paulistano,83,82,Brasília
+2018,Joinville / AABJ,80,95,Franca
+2018,Paulistano,82,78,Corinthians
+2018,Mogi,88,82,São José
+2018,Corinthians,97,82,Minas
+2018,Vasco da Gama,82,88,Bauru
+2018,Basquete Cearense,65,77,Paulistano
+2018,Joinville / AABJ,84,90,Mogi
+2018,Pinheiros,87,75,Minas
+2018,Brasília,71,97,Paulistano
+2018,Botafogo,74,80,Bauru
+2018,Corinthians,68,91,Flamengo
+2018,Franca,82,74,Basquete Cearense
+2018,Joinville / AABJ,81,92,Vasco da Gama
+2018,Pinheiros,81,73,Flamengo
+2018,Bauru,82,71,Basquete Cearense
+2018,Brasília,76,80,Mogi
+2018,Minas,75,80,São José
+2018,Corinthians,77,80,Pinheiros
+2018,Vasco da Gama,78,84,Franca
+2018,Basquete Cearense,60,73,Mogi
+2018,Flamengo,96,83,São José
+2018,Botafogo,69,71,Franca
+2018,Joinville / AABJ,80,89,Minas
+2018,Mogi,65,64,Minas
+2018,Bauru,75,76,Brasília
+2018,Botafogo,78,69,Basquete Cearense
+2018,Paulistano,85,91,Pinheiros
+2018,Vasco da Gama,77,79,Basquete Cearense
+2018,Joinville / AABJ,50,89,Flamengo
+2018,Mogi,74,81,Flamengo
+2018,Pinheiros,69,67,Botafogo
+2018,São José,79,72,Botafogo
+2018,Basquete Cearense,77,90,Corinthians
+2018,Minas,88,85,Paulistano
+2018,Brasília,84,82,Corinthians
+2018,Flamengo,95,87,Paulistano
+2018,Franca,88,71,Bauru
+2018,São José,67,83,Pinheiros
+2018,Vasco da Gama,81,92,Minas
+2018,Brasília,80,87,Basquete Cearense
+2018,Flamengo,79,74,Franca
+2018,Franca,83,69,Brasília
+2018,Mogi,90,88,Vasco da Gama
+2018,Pinheiros,92,70,Joinville / AABJ
+2018,Basquete Cearense,76,86,São José
+2018,Minas,93,89,Bauru
+2018,Corinthians,92,83,Joinville / AABJ
+2018,Brasília,81,73,São José
+2018,Mogi,89,91,Paulistano
+2018,Minas,86,103,Franca
+2018,Joinville / AABJ,54,59,Botafogo
+2018,Botafogo,79,74,Vasco da Gama
+2018,São José,82,68,Vasco da Gama
+2018,Basquete Cearense,88,77,Joinville / AABJ
+2018,Paulistano,109,65,Vasco da Gama
+2018,Bauru,68,75,Pinheiros
+2018,Brasília,98,90,Joinville / AABJ
+2018,Corinthians,90,79,Mogi
+2018,Botafogo,67,73,Flamengo
+2018,Franca,93,78,Pinheiros
+2018,Franca,83,60,Corinthians
+2018,Botafogo,79,62,Minas
+2018,Vasco da Gama,78,94,Brasília
+2018,Bauru,92,81,Corinthians
+2018,Pinheiros,78,71,Mogi
+2018,Botafogo,79,65,Brasília
+2018,Flamengo,82,60,Minas
+2018,Joinville / AABJ,87,84,São José
+2018,Flamengo,80,72,Bauru
+2018,Basquete Cearense,79,81,Pinheiros
+2018,São José,74,83,Bauru
+2018,Joinville / AABJ,87,97,Paulistano
+2018,Mogi,89,72,Botafogo
+2018,Vasco da Gama,67,107,Flamengo
+2018,São José,80,98,Franca
+2018,Brasília,81,77,Pinheiros
+2018,Paulistano,86,93,Franca
+2018,São José,61,72,Corinthians
+2018,Paulistano,74,76,Bauru
+2018,Franca,82,65,Mogi
+2018,Bauru,84,76,Joinville / AABJ
+2018,Corinthians,85,72,Vasco da Gama
+2018,Paulistano,100,104,Botafogo
+2018,Minas,95,85,Basquete Cearense
+2018,Flamengo,97,54,Brasília
+2018,Bauru,81,96,Mogi
+2018,Franca,84,72,Joinville / AABJ
+2018,Corinthians,84,77,Botafogo
+2018,Pinheiros,112,80,Vasco da Gama
+2018,Flamengo,100,82,Basquete Cearense
+2018,Minas,68,74,Brasília
+2018,São José,65,73,Paulistano
+2018,Brasília,87,78,Corinthians
+2018,São José,81,87,Botafogo
+2018,Minas,78,71,Bauru
+2018,Corinthians,92,86,Brasília
+2018,Basquete Cearense,75,68,Paulistano
+2018,Botafogo,66,61,São José
+2018,Bauru,66,59,Minas
+2018,Corinthians,83,74,Brasília
+2018,Paulistano,74,84,Basquete Cearense
+2018,Bauru,85,64,Minas
+2018,Botafogo,91,76,Pinheiros
+2018,Corinthians,73,92,Flamengo
+2018,Basquete Cearense,69,77,Mogi
+2018,Bauru,82,94,Franca
+2018,Flamengo,79,60,Corinthians
+2018,Pinheiros,67,58,Botafogo
+2018,Mogi,96,71,Basquete Cearense
+2018,Flamengo,91,65,Corinthians
+2018,Pinheiros,89,64,Botafogo
+2018,Mogi,73,71,Basquete Cearense
+2018,Franca,83,77,Bauru
+2018,Franca,90,68,Bauru
+2018,Botafogo,88,73,Pinheiros
+2018,Pinheiros,78,82,Botafogo
+2018,Botafogo,77,79,Flamengo
+2018,Mogi,77,85,Franca
+2018,Franca,89,78,Mogi
+2018,Flamengo,81,69,Botafogo
+2018,Franca,108,100,Mogi
+2018,Flamengo,77,81,Botafogo
+2018,Botafogo,75,90,Flamengo
+2018,Flamengo,82,68,Franca
+2018,Franca,88,79,Flamengo
+2018,Franca,77,71,Flamengo
+2018,Flamengo,76,62,Franca
+2018,Franca,72,81,Flamengo
+2020,VipTech CMB,61,74,Basquete Cearense
+2020,Flamengo,102,68,Minas
+2020,UNIFACISA,86,88,VipTech CMB
+2020,Corinthians,109,86,Franca
+2020,Basquete Cearense,69,82,Flamengo
+2020,Minas,76,54,Pato Basquete
+2020,Mogi,85,90,Bauru
+2020,VipTech CMB,54,90,Minas
+2020,São Paulo,107,61,Corinthians
+2020,Pato Basquete,69,76,Basquete Cearense
+2020,Brasília,57,73,Paulistano
+2020,Flamengo,86,79,UNIFACISA
+2020,Franca,80,60,Pinheiros
+2020,Cerrado Basquete,79,86,Franca
+2020,Bauru,93,70,Brasília
+2020,Corinthians,76,74,Pinheiros
+2020,VipTech CMB,78,82,Pato Basquete
+2020,UNIFACISA,69,67,Basquete Cearense
+2020,Mogi,75,112,São Paulo
+2020,Caxias do Sul Basquete,84,69,Brasília
+2020,Cerrado Basquete,81,83,Bauru
+2020,Paulistano,75,74,Corinthians
+2020,Pato Basquete,85,76,UNIFACISA
+2020,Basquete Cearense,67,82,Minas
+2020,Pinheiros,73,100,São Paulo
+2020,Franca,94,82,Mogi
+2020,Paulistano,72,61,Cerrado Basquete
+2020,Bauru,74,54,Caxias do Sul Basquete
+2020,Flamengo,78,63,VipTech CMB
+2020,São Paulo,90,96,Franca
+2020,Minas,108,99,UNIFACISA
+2020,Brasília,84,78,Pinheiros
+2020,Caxias do Sul Basquete,62,86,Paulistano
+2020,Flamengo,105,70,Pato Basquete
+2020,Brasília,71,85,Corinthians
+2020,Mogi,81,75,Cerrado Basquete
+2020,Cerrado Basquete,67,63,Caxias do Sul Basquete
+2020,Corinthians,81,87,Mogi
+2020,Cerrado Basquete,67,75,UNIFACISA
+2020,Basquete Cearense,85,78,Caxias do Sul Basquete
+2020,Minas,105,100,Brasília
+2020,Pato Basquete,64,86,Franca
+2020,Pinheiros,62,95,Flamengo
+2020,São Paulo,92,79,VipTech CMB
+2020,Caxias do Sul Basquete,63,94,Minas
+2020,UNIFACISA,91,74,Brasília
+2020,Paulistano,69,62,Mogi
+2020,Cerrado Basquete,73,75,Basquete Cearense
+2020,VipTech CMB,79,66,Pinheiros
+2020,Pato Basquete,71,80,São Paulo
+2020,Flamengo,93,62,Franca
+2020,Bauru,82,67,Corinthians
+2020,Basquete Cearense,71,63,Brasília
+2020,Minas,97,77,Cerrado Basquete
+2020,Caxias do Sul Basquete,65,90,UNIFACISA
+2020,Pinheiros,85,77,Pato Basquete
+2020,Franca,95,58,VipTech CMB
+2020,Bauru,81,62,Paulistano
+2020,São Paulo,80,68,Flamengo
+2020,UNIFACISA,94,74,Corinthians
+2020,Pato Basquete,80,79,Bauru
+2020,Flamengo,104,76,Paulistano
+2020,Mogi,98,91,UNIFACISA
+2020,Pinheiros,79,72,Caxias do Sul Basquete
+2020,Brasília,80,104,São Paulo
+2020,Bauru,73,90,Flamengo
+2020,Paulistano,75,68,Pato Basquete
+2020,Franca,90,93,Brasília
+2020,Pinheiros,80,77,Cerrado Basquete
+2020,Caxias do Sul Basquete,89,109,São Paulo
+2020,Basquete Cearense,85,88,Mogi
+2020,Minas,20,0,Corinthians
+2020,Franca,84,81,Caxias do Sul Basquete
+2020,VipTech CMB,75,88,Bauru
+2020,São Paulo,91,83,Cerrado Basquete
+2020,Corinthians,0,20,Basquete Cearense
+2020,Mogi,74,80,Minas
+2020,Paulistano,103,101,VipTech CMB
+2020,Brasília,74,103,Flamengo
+2020,UNIFACISA,92,85,Franca
+2020,Minas,96,92,São Paulo
+2020,Basquete Cearense,79,62,Pinheiros
+2020,Brasília,98,104,Pato Basquete
+2020,Cerrado Basquete,67,87,Flamengo
+2020,Caxias do Sul Basquete,76,96,VipTech CMB
+2020,Pinheiros,76,84,Minas
+2020,Franca,98,81,Basquete Cearense
+2020,São Paulo,77,65,UNIFACISA
+2020,Pato Basquete,79,68,Cerrado Basquete
+2020,VipTech CMB,94,78,Brasília
+2020,Flamengo,80,76,Caxias do Sul Basquete
+2020,UNIFACISA,72,84,Pinheiros
+2020,Minas,89,82,Franca
+2020,Basquete Cearense,92,85,São Paulo
+2020,Flamengo,87,56,Mogi
+2020,Paulistano,87,85,Franca
+2020,Bauru,79,68,São Paulo
+2020,Mogi,74,68,Pinheiros
+2020,Corinthians,83,69,Flamengo
+2020,Franca,82,89,Bauru
+2020,São Paulo,78,64,Paulistano
+2020,VipTech CMB,92,86,Mogi
+2020,Pato Basquete,75,80,Corinthians
+2020,Bauru,75,85,Minas
+2020,Paulistano,78,73,Basquete Cearense
+2020,Cerrado Basquete,97,85,Brasília
+2020,Mogi,78,63,Pato Basquete
+2020,Corinthians,96,72,VipTech CMB
+2020,Basquete Cearense,71,60,Bauru
+2020,Minas,70,63,Paulistano
+2020,Pato Basquete,77,92,Caxias do Sul Basquete
+2020,VipTech CMB,66,74,Cerrado Basquete
+2020,Brasília,86,90,Mogi
+2020,Bauru,89,75,UNIFACISA
+2020,Paulistano,68,46,Pinheiros
+2020,Caxias do Sul Basquete,87,92,Mogi
+2020,Cerrado Basquete,71,74,Corinthians
+2020,UNIFACISA,89,77,Paulistano
+2020,Pinheiros,89,92,Bauru
+2020,Corinthians,77,83,Caxias do Sul Basquete
+2020,São Paulo,86,81,Caxias do Sul Basquete
+2020,Bauru,60,72,Pinheiros
+2020,Franca,84,81,Corinthians
+2020,Pato Basquete,98,76,Brasília
+2020,VipTech CMB,59,72,UNIFACISA
+2020,Cerrado Basquete,80,93,Minas
+2020,Flamengo,77,74,Basquete Cearense
+2020,Caxias do Sul Basquete,63,71,Bauru
+2020,Pinheiros,101,99,Franca
+2020,São Paulo,96,72,Mogi
+2020,Basquete Cearense,68,71,Pato Basquete
+2020,Cerrado Basquete,74,57,VipTech CMB
+2020,Brasília,75,99,Minas
+2020,UNIFACISA,79,81,Flamengo
+2020,Paulistano,71,64,Caxias do Sul Basquete
+2020,Corinthians,74,64,Bauru
+2020,Pinheiros,77,81,Mogi
+2020,Flamengo,115,58,Brasília
+2020,Cerrado Basquete,77,76,Pato Basquete
+2020,UNIFACISA,76,88,Minas
+2020,Corinthians,98,100,Paulistano
+2020,Mogi,75,77,Corinthians
+2020,Franca,76,97,São Paulo
+2020,Paulistano,69,64,Bauru
+2020,Brasília,86,103,UNIFACISA
+2020,Basquete Cearense,86,77,Cerrado Basquete
+2020,Mogi,86,75,Caxias do Sul Basquete
+2020,Pinheiros,67,98,Corinthians
+2020,Franca,90,82,Paulistano
+2020,São Paulo,92,84,Bauru
+2020,Pato Basquete,86,82,VipTech CMB
+2020,UNIFACISA,67,81,Cerrado Basquete
+2020,Minas,94,96,Flamengo
+2020,Brasília,87,67,Basquete Cearense
+2020,Bauru,74,70,Franca
+2020,São Paulo,100,74,Pinheiros
+2020,Caxias do Sul Basquete,79,78,Corinthians
+2020,Basquete Cearense,75,87,UNIFACISA
+2020,Brasília,73,86,Cerrado Basquete
+2020,Pato Basquete,61,85,Flamengo
+2020,Minas,91,70,VipTech CMB
+2020,Caxias do Sul Basquete,76,73,Pinheiros
+2020,Paulistano,63,71,São Paulo
+2020,Mogi,87,75,Franca
+2020,VipTech CMB,74,93,Flamengo
+2020,Pato Basquete,67,83,Minas
+2020,UNIFACISA,88,83,Caxias do Sul Basquete
+2020,Pinheiros,52,97,Brasília
+2020,Cerrado Basquete,78,84,Mogi
+2020,Franca,109,68,Pato Basquete
+2020,São Paulo,90,92,Minas
+2020,Paulistano,70,84,Flamengo
+2020,Brasília,66,88,Caxias do Sul Basquete
+2020,Pinheiros,73,87,UNIFACISA
+2020,Corinthians,83,61,Cerrado Basquete
+2020,Mogi,84,94,Basquete Cearense
+2020,Bauru,101,55,Pato Basquete
+2020,VipTech CMB,78,86,Paulistano
+2020,Flamengo,93,74,São Paulo
+2020,Franca,87,93,Minas
+2020,Caxias do Sul Basquete,91,88,Cerrado Basquete
+2020,Corinthians,96,70,Brasília
+2020,UNIFACISA,88,70,Mogi
+2020,Pinheiros,46,92,Basquete Cearense
+2020,São Paulo,84,85,Pato Basquete
+2020,Paulistano,76,74,Minas
+2020,Bauru,104,92,VipTech CMB
+2020,Franca,91,94,Flamengo
+2020,Caxias do Sul Basquete,81,82,Basquete Cearense
+2020,VipTech CMB,73,113,Franca
+2020,Flamengo,91,86,Bauru
+2020,Basquete Cearense,77,83,Corinthians
+2020,Mogi,62,69,Paulistano
+2020,São Paulo,92,46,Brasília
+2020,Pato Basquete,89,88,Pinheiros
+2020,Mogi,96,79,VipTech CMB
+2020,Paulistano,81,65,UNIFACISA
+2020,Minas,74,70,Caxias do Sul Basquete
+2020,Brasília,70,99,Bauru
+2020,São Paulo,98,76,Basquete Cearense
+2020,VipTech CMB,73,89,Caxias do Sul Basquete
+2020,Minas,85,80,Mogi
+2020,Corinthians,91,82,Pato Basquete
+2020,Flamengo,100,63,Pinheiros
+2020,Brasília,79,96,Franca
+2020,UNIFACISA,79,90,São Paulo
+2020,Mogi,74,89,Flamengo
+2020,Corinthians,78,65,Minas
+2020,Franca,96,89,UNIFACISA
+2020,Flamengo,98,85,Corinthians
+2020,Minas,92,66,Basquete Cearense
+2020,Cerrado Basquete,80,86,São Paulo
+2020,Pato Basquete,49,87,Paulistano
+2020,Caxias do Sul Basquete,77,71,Franca
+2020,Brasília,89,79,VipTech CMB
+2020,Corinthians,78,85,São Paulo
+2020,Bauru,98,97,Basquete Cearense
+2020,Minas,93,61,Pinheiros
+2020,Pato Basquete,73,62,Mogi
+2020,Franca,93,81,Cerrado Basquete
+2020,Paulistano,70,66,Brasília
+2020,Corinthians,93,79,UNIFACISA
+2020,Caxias do Sul Basquete,58,77,Flamengo
+2020,VipTech CMB,74,99,São Paulo
+2020,Basquete Cearense,84,69,Franca
+2020,Minas,81,79,Bauru
+2020,Caxias do Sul Basquete,83,85,Pato Basquete
+2020,Pinheiros,47,69,Paulistano
+2020,Flamengo,88,57,Cerrado Basquete
+2020,Mogi,97,77,Brasília
+2020,UNIFACISA,72,88,Bauru
+2020,VipTech CMB,74,86,Corinthians
+2020,Cerrado Basquete,63,71,Pinheiros
+2020,UNIFACISA,99,80,Pato Basquete
+2020,Bauru,82,91,Mogi
+2020,Basquete Cearense,83,84,VipTech CMB
+2020,Cerrado Basquete,67,75,Paulistano
+2020,Pinheiros,84,75,VipTech CMB
+2020,Bauru,81,69,Cerrado Basquete
+2020,Basquete Cearense,92,97,Paulistano
+2020,Caxias do Sul Basquete,65,75,Bauru
+2020,UNIFACISA,70,77,Mogi
+2020,Basquete Cearense,64,82,Franca
+2020,Pato Basquete,61,90,Corinthians
+2020,Bauru,74,73,Caxias do Sul Basquete
+2020,Mogi,84,95,UNIFACISA
+2020,Corinthians,89,84,Pato Basquete
+2020,Franca,82,58,Basquete Cearense
+2020,Mogi,94,85,UNIFACISA
+2020,Mogi,79,109,Flamengo
+2020,Bauru,66,78,Paulistano
+2020,Corinthians,71,78,São Paulo
+2020,Franca,85,91,Minas
+2020,Paulistano,77,87,Bauru
+2020,Flamengo,77,67,Mogi
+2020,São Paulo,79,68,Corinthians
+2020,Minas,72,82,Franca
+2020,Paulistano,78,65,Bauru
+2020,Minas,93,68,Franca
+2020,Minas,70,88,São Paulo
+2020,Flamengo,92,69,Paulistano
+2020,São Paulo,90,85,Minas
+2020,Paulistano,75,81,Flamengo
+2020,Paulistano,58,69,Flamengo
+2020,São Paulo,80,79,Minas
+2020,Flamengo,96,93,São Paulo
+2020,São Paulo,81,82,Flamengo
+2020,São Paulo,85,93,Flamengo
+2021,São Paulo,61,86,Flamengo
+2021,União Corinthians,59,77,Minas
+2021,Bauru,76,87,Franca
+2021,São Paulo,76,78,Cerrado Basquete
+2021,Pinheiros,86,75,Rio Claro
+2021,Basquete Cearense,71,72,UNIFACISA
+2021,Caxias do Sul Basquete,75,83,Minas
+2021,União Corinthians,76,87,Flamengo
+2021,Pato Basquete,73,80,Corinthians
+2021,Mogi,77,72,Paulistano
+2021,Pinheiros,80,89,Franca
+2021,Bauru,77,65,Rio Claro
+2021,Caxias do Sul Basquete,73,86,Flamengo
+2021,São Paulo,85,66,Brasília
+2021,Mogi,70,69,Corinthians
+2021,Pato Basquete,55,68,Paulistano
+2021,Rio Claro,74,63,União Corinthians
+2021,Paulistano,74,69,Corinthians
+2021,Cerrado Basquete,88,79,Pinheiros
+2021,Minas,109,75,Mogi
+2021,Rio Claro,63,65,Caxias do Sul Basquete
+2021,Franca,115,74,União Corinthians
+2021,Flamengo,94,62,Pato Basquete
+2021,Basquete Cearense,68,81,São Paulo
+2021,Brasília,92,93,Pinheiros
+2021,Cerrado Basquete,87,92,Bauru
+2021,Flamengo,116,73,Mogi
+2021,Minas,79,67,Pato Basquete
+2021,Franca,84,75,Caxias do Sul Basquete
+2021,UNIFACISA,66,78,São Paulo
+2021,Brasília,49,60,Bauru
+2021,Pinheiros,81,60,Basquete Cearense
+2021,União Corinthians,75,76,Cerrado Basquete
+2021,Corinthians,80,83,Flamengo
+2021,Caxias do Sul Basquete,72,64,Cerrado Basquete
+2021,Bauru,74,59,Basquete Cearense
+2021,Pinheiros,67,86,UNIFACISA
+2021,União Corinthians,70,55,Brasília
+2021,Paulistano,87,81,Flamengo
+2021,Corinthians,65,82,Minas
+2021,Pato Basquete,66,88,Franca
+2021,Mogi,64,60,Rio Claro
+2021,Bauru,84,68,UNIFACISA
+2021,Caxias do Sul Basquete,76,64,Brasília
+2021,Paulistano,67,96,Minas
+2021,Mogi,96,102,Franca
+2021,Pato Basquete,72,77,Rio Claro
+2021,São Paulo,79,77,Bauru
+2021,Basquete Cearense,94,85,Caxias do Sul Basquete
+2021,UNIFACISA,104,99,União Corinthians
+2021,Rio Claro,85,79,Paulistano
+2021,São Paulo,86,70,Pinheiros
+2021,Franca,86,62,Corinthians
+2021,UNIFACISA,53,70,Caxias do Sul Basquete
+2021,Basquete Cearense,77,76,União Corinthians
+2021,Brasília,78,73,Mogi
+2021,Cerrado Basquete,85,86,Pato Basquete
+2021,Flamengo,99,63,Minas
+2021,Rio Claro,63,75,Corinthians
+2021,Franca,82,78,Paulistano
+2021,Brasília,53,70,Pato Basquete
+2021,Cerrado Basquete,74,86,Mogi
+2021,Pato Basquete,66,63,Basquete Cearense
+2021,Paulistano,85,84,Cerrado Basquete
+2021,Mogi,75,85,UNIFACISA
+2021,Corinthians,73,64,Brasília
+2021,Bauru,73,68,Pinheiros
+2021,Minas,75,96,Franca
+2021,Flamengo,91,66,Rio Claro
+2021,União Corinthians,71,66,São Paulo
+2021,Corinthians,79,89,Cerrado Basquete
+2021,Paulistano,75,77,Brasília
+2021,Mogi,86,79,Basquete Cearense
+2021,Pato Basquete,69,80,UNIFACISA
+2021,Flamengo,65,80,Franca
+2021,Minas,89,61,Rio Claro
+2021,Caxias do Sul Basquete,69,79,São Paulo
+2021,Bauru,92,67,União Corinthians
+2021,Brasília,60,69,Flamengo
+2021,Pinheiros,75,79,Caxias do Sul Basquete
+2021,Cerrado Basquete,74,90,Minas
+2021,Franca,86,76,Rio Claro
+2021,Basquete Cearense,72,69,Paulistano
+2021,Brasília,77,82,Minas
+2021,Bauru,89,81,Caxias do Sul Basquete
+2021,Pinheiros,88,66,União Corinthians
+2021,Basquete Cearense,78,66,Corinthians
+2021,UNIFACISA,72,87,Paulistano
+2021,Brasília,72,82,Cerrado Basquete
+2021,UNIFACISA,99,87,Corinthians
+2021,Pinheiros,83,73,Paulistano
+2021,Pato Basquete,81,69,Pinheiros
+2021,São Paulo,89,72,Mogi
+2021,Caxias do Sul Basquete,89,72,União Corinthians
+2021,Rio Claro,93,75,Cerrado Basquete
+2021,Corinthians,78,83,São Paulo
+2021,Pato Basquete,87,53,Bauru
+2021,Franca,96,61,Cerrado Basquete
+2021,Minas,101,74,Basquete Cearense
+2021,Rio Claro,80,58,Brasília
+2021,Flamengo,89,70,UNIFACISA
+2021,Mogi,76,79,Bauru
+2021,Minas,71,68,UNIFACISA
+2021,Flamengo,91,74,Basquete Cearense
+2021,Franca,87,79,Brasília
+2021,Mogi,65,82,Pinheiros
+2021,Paulistano,60,75,São Paulo
+2021,União Corinthians,92,80,Mogi
+2021,Bauru,77,71,Corinthians
+2021,Caxias do Sul Basquete,80,67,Pato Basquete
+2021,União Corinthians,74,68,Pato Basquete
+2021,Cerrado Basquete,75,91,Flamengo
+2021,Caxias do Sul Basquete,73,78,Mogi
+2021,UNIFACISA,81,85,Franca
+2021,Basquete Cearense,20,0,Rio Claro
+2021,São Paulo,91,87,Minas
+2021,UNIFACISA,20,0,Rio Claro
+2021,Basquete Cearense,64,110,Franca
+2021,Bauru,97,98,Paulistano
+2021,Pinheiros,67,65,Corinthians
+2021,Franca,92,87,São Paulo
+2021,Minas,76,64,Bauru
+2021,Brasília,60,79,UNIFACISA
+2021,Cerrado Basquete,122,126,Basquete Cearense
+2021,Flamengo,81,64,Pinheiros
+2021,Paulistano,90,78,União Corinthians
+2021,Rio Claro,91,85,São Paulo
+2021,Corinthians,104,60,Caxias do Sul Basquete
+2021,Mogi,68,72,Pato Basquete
+2021,Minas,91,84,Pinheiros
+2021,Flamengo,103,59,Bauru
+2021,Brasília,82,75,Basquete Cearense
+2021,Cerrado Basquete,74,88,UNIFACISA
+2021,Paulistano,89,83,Caxias do Sul Basquete
+2021,Corinthians,74,63,União Corinthians
+2021,São Paulo,86,77,Pato Basquete
+2021,Rio Claro,84,80,Pinheiros
+2021,Brasília,86,90,São Paulo
+2021,Corinthians,98,75,Mogi
+2021,Flamengo,90,55,Caxias do Sul Basquete
+2021,Paulistano,82,86,Pato Basquete
+2021,UNIFACISA,95,68,Basquete Cearense
+2021,Minas,83,62,Caxias do Sul Basquete
+2021,Rio Claro,76,84,Bauru
+2021,Franca,95,80,Pinheiros
+2021,Cerrado Basquete,86,84,São Paulo
+2021,Paulistano,69,62,Mogi
+2021,Corinthians,58,60,Pato Basquete
+2021,Franca,104,88,Bauru
+2021,Minas,97,82,União Corinthians
+2021,Pinheiros,107,95,Brasília
+2021,Caxias do Sul Basquete,85,77,Rio Claro
+2021,Bauru,96,74,Brasília
+2021,Pinheiros,88,70,Cerrado Basquete
+2021,Pato Basquete,87,93,Flamengo
+2021,Caxias do Sul Basquete,68,83,Franca
+2021,União Corinthians,84,75,Rio Claro
+2021,Corinthians,81,71,Paulistano
+2021,Bauru,74,68,Cerrado Basquete
+2021,Mogi,77,117,Flamengo
+2021,São Paulo,88,70,UNIFACISA
+2021,União Corinthians,89,85,Franca
+2021,Pato Basquete,70,101,Minas
+2021,São Paulo,73,62,Basquete Cearense
+2021,Brasília,78,79,Caxias do Sul Basquete
+2021,Mogi,70,73,Minas
+2021,UNIFACISA,87,85,Pinheiros
+2021,Brasília,92,71,União Corinthians
+2021,Cerrado Basquete,79,61,Caxias do Sul Basquete
+2021,Rio Claro,79,65,Pato Basquete
+2021,UNIFACISA,92,64,Bauru
+2021,Basquete Cearense,65,81,Pinheiros
+2021,Cerrado Basquete,55,73,União Corinthians
+2021,Minas,91,88,Corinthians
+2021,Rio Claro,75,56,Mogi
+2021,Franca,97,80,Pato Basquete
+2021,Basquete Cearense,74,72,Bauru
+2021,Franca,92,71,Mogi
+2021,Minas,104,67,Paulistano
+2021,Pinheiros,92,98,São Paulo
+2021,Pato Basquete,77,75,Brasília
+2021,Corinthians,84,78,Rio Claro
+2021,Mogi,87,67,Cerrado Basquete
+2021,Bauru,102,87,São Paulo
+2021,Caxias do Sul Basquete,74,66,Basquete Cearense
+2021,União Corinthians,70,74,UNIFACISA
+2021,Corinthians,65,81,Franca
+2021,Mogi,83,72,Brasília
+2021,Pato Basquete,78,94,Cerrado Basquete
+2021,Minas,88,79,Flamengo
+2021,Paulistano,86,78,Rio Claro
+2021,Caxias do Sul Basquete,60,79,UNIFACISA
+2021,União Corinthians,80,86,Basquete Cearense
+2021,UNIFACISA,91,82,Mogi
+2021,São Paulo,93,53,Caxias do Sul Basquete
+2021,Flamengo,69,63,Cerrado Basquete
+2021,Basquete Cearense,78,84,Pato Basquete
+2021,Franca,98,89,Minas
+2021,Paulistano,53,65,Bauru
+2021,UNIFACISA,87,78,Pato Basquete
+2021,São Paulo,98,71,União Corinthians
+2021,Basquete Cearense,82,75,Mogi
+2021,Franca,90,85,Flamengo
+2021,Rio Claro,75,78,Minas
+2021,Pinheiros,60,65,Bauru
+2021,Cerrado Basquete,86,80,Corinthians
+2021,Rio Claro,79,99,Flamengo
+2021,São Paulo,80,71,Paulistano
+2021,Brasília,89,91,Corinthians
+2021,Minas,74,66,Cerrado Basquete
+2021,Paulistano,94,88,Basquete Cearense
+2021,Rio Claro,78,102,Franca
+2021,Minas,95,82,Brasília
+2021,Pato Basquete,79,70,Mogi
+2021,Corinthians,81,65,Basquete Cearense
+2021,Caxias do Sul Basquete,80,87,Pinheiros
+2021,Paulistano,83,64,UNIFACISA
+2021,União Corinthians,77,82,Bauru
+2021,Corinthians,69,70,UNIFACISA
+2021,Caxias do Sul Basquete,60,66,Bauru
+2021,União Corinthians,83,87,Pinheiros
+2021,Paulistano,87,77,Franca
+2021,Mogi,73,90,São Paulo
+2021,Flamengo,73,70,Paulistano
+2021,Flamengo,76,71,Corinthians
+2021,Pato Basquete,62,82,São Paulo
+2021,Flamengo,117,55,União Corinthians
+2021,Bauru,107,103,Mogi
+2021,Paulistano,93,82,Pinheiros
+2021,Cerrado Basquete,73,79,Rio Claro
+2021,UNIFACISA,70,59,Minas
+2021,São Paulo,88,67,Corinthians
+2021,Cerrado Basquete,88,89,Franca
+2021,Brasília,79,80,Rio Claro
+2021,Basquete Cearense,75,85,Minas
+2021,UNIFACISA,74,60,Flamengo
+2021,Brasília,96,86,Franca
+2021,Basquete Cearense,91,94,Flamengo
+2021,União Corinthians,84,70,Caxias do Sul Basquete
+2021,Minas,61,82,São Paulo
+2021,Bauru,84,74,Pato Basquete
+2021,Flamengo,88,78,São Paulo
+2021,Cerrado Basquete,76,80,Paulistano
+2021,Pinheiros,82,69,Pato Basquete
+2021,Mogi,85,75,União Corinthians
+2021,Brasília,60,78,Paulistano
+2021,Corinthians,79,83,Pinheiros
+2021,Franca,74,65,UNIFACISA
+2021,Rio Claro,82,66,Basquete Cearense
+2021,Pato Basquete,90,89,União Corinthians
+2021,Mogi,86,65,Caxias do Sul Basquete
+2021,Rio Claro,83,72,UNIFACISA
+2021,Franca,90,66,Basquete Cearense
+2021,Pato Basquete,59,68,Caxias do Sul Basquete
+2021,Cerrado Basquete,86,90,Brasília
+2021,Corinthians,75,67,Bauru
+2021,Pinheiros,69,90,Mogi
+2021,Bauru,101,69,Minas
+2021,União Corinthians,71,88,Paulistano
+2021,UNIFACISA,72,90,Brasília
+2021,São Paulo,96,69,Rio Claro
+2021,Basquete Cearense,75,77,Cerrado Basquete
+2021,Bauru,80,92,Flamengo
+2021,Pinheiros,83,93,Minas
+2021,Caxias do Sul Basquete,61,54,Paulistano
+2021,União Corinthians,55,74,Corinthians
+2021,UNIFACISA,75,65,Cerrado Basquete
+2021,Basquete Cearense,77,65,Brasília
+2021,São Paulo,66,81,Franca
+2021,Caxias do Sul Basquete,57,62,Corinthians
+2021,Pinheiros,92,80,Flamengo
+2021,Flamengo,113,83,Brasília
+2021,Caxias do Sul Basquete,64,73,UNIFACISA
+2021,Pato Basquete,72,63,Bauru
+2021,Rio Claro,67,65,Paulistano
+2021,Corinthians,78,80,Pinheiros
+2021,UNIFACISA,81,67,Caxias do Sul Basquete
+2021,Bauru,82,71,Pato Basquete
+2021,Pinheiros,89,78,Corinthians
+2021,Paulistano,90,84,Rio Claro
+2021,Bauru,88,79,Pato Basquete
+2021,Paulistano,68,64,Rio Claro
+2021,Minas,85,65,UNIFACISA
+2021,Franca,95,86,Pinheiros
+2021,São Paulo,90,65,Bauru
+2021,Flamengo,74,68,Paulistano
+2021,Pinheiros,84,92,Franca
+2021,UNIFACISA,91,80,Minas
+2021,Paulistano,73,80,Flamengo
+2021,Bauru,62,85,São Paulo
+2021,Pinheiros,79,91,Franca
+2021,UNIFACISA,85,88,Minas
+2021,Bauru,71,88,São Paulo
+2021,Paulistano,68,87,Flamengo
+2022,Minas,73,85,Flamengo
+2022,UNIFACISA,90,79,Cerrado Basquete
+2022,Rio Claro,93,88,Paulistano
+2022,Corinthians,82,77,São José
+2022,Pato Basquete,61,71,São José
+2022,UNIFACISA,84,71,Brasília
+2022,Basquete Cearense,80,86,Cerrado Basquete
+2022,Rio Claro,71,98,São Paulo
+2022,Pinheiros,81,72,Minas
+2022,Franca,83,62,Paulistano
+2022,Basquete Cearense,62,75,Brasília
+2022,Corinthians,70,82,Flamengo
+2022,Bauru,72,82,Minas
+2022,Caxias do Sul Basquete,68,65,União Corinthians
+2022,Pato Basquete,64,91,Flamengo
+2022,Corinthians,61,57,Paulistano
+2022,Rio Claro,79,93,Franca
+2022,Cerrado Basquete,93,95,Pinheiros
+2022,Paulistano,76,69,Pato Basquete
+2022,Minas,92,94,Franca
+2022,Brasília,68,71,Pinheiros
+2022,Flamengo,80,60,Basquete Cearense
+2022,Corinthians,98,77,Rio Claro
+2022,Brasília,66,86,Bauru
+2022,Flamengo,91,53,UNIFACISA
+2022,São José,83,74,Basquete Cearense
+2022,São Paulo,99,90,Pato Basquete
+2022,Minas,87,81,Caxias do Sul Basquete
+2022,Cerrado Basquete,69,80,Bauru
+2022,Franca,82,69,São Paulo
+2022,São José,62,71,UNIFACISA
+2022,Pato Basquete,61,59,Rio Claro
+2022,União Corinthians,72,74,Brasília
+2022,Bauru,82,77,Flamengo
+2022,São Paulo,76,72,Pinheiros
+2022,Basquete Cearense,55,78,Paulistano
+2022,Pinheiros,65,74,Flamengo
+2022,Corinthians,82,85,Franca
+2022,União Corinthians,92,81,Cerrado Basquete
+2022,Caxias do Sul Basquete,86,76,Brasília
+2022,Bauru,94,76,São José
+2022,UNIFACISA,61,72,Paulistano
+2022,São Paulo,78,72,Corinthians
+2022,Caxias do Sul Basquete,82,67,Cerrado Basquete
+2022,Minas,81,75,União Corinthians
+2022,Pato Basquete,70,94,Franca
+2022,Rio Claro,57,72,Basquete Cearense
+2022,Paulistano,62,76,Pinheiros
+2022,Rio Claro,104,80,UNIFACISA
+2022,São Paulo,82,73,Bauru
+2022,São José,78,73,Caxias do Sul Basquete
+2022,Cerrado Basquete,102,112,Minas
+2022,Franca,78,62,Basquete Cearense
+2022,Pato Basquete,68,96,Corinthians
+2022,Flamengo,80,69,Caxias do Sul Basquete
+2022,São José,103,84,União Corinthians
+2022,Paulistano,71,68,Bauru
+2022,Brasília,74,94,Minas
+2022,Franca,106,94,UNIFACISA
+2022,Basquete Cearense,80,60,Pato Basquete
+2022,Flamengo,79,74,União Corinthians
+2022,Pinheiros,86,74,Rio Claro
+2022,Bauru,78,88,Franca
+2022,Minas,104,53,São José
+2022,UNIFACISA,89,79,Pato Basquete
+2022,Caxias do Sul Basquete,70,86,São Paulo
+2022,Basquete Cearense,77,81,Corinthians
+2022,União Corinthians,71,93,São Paulo
+2022,Bauru,92,48,Rio Claro
+2022,UNIFACISA,76,92,Corinthians
+2022,Caxias do Sul Basquete,66,63,Paulistano
+2022,Pinheiros,77,85,Franca
+2022,Cerrado Basquete,88,96,Brasília
+2022,União Corinthians,72,78,Paulistano
+2022,Minas,79,71,Basquete Cearense
+2022,Flamengo,91,80,Cerrado Basquete
+2022,Pato Basquete,95,76,Pinheiros
+2022,Flamengo,72,50,Brasília
+2022,São José,88,79,Cerrado Basquete
+2022,Rio Claro,75,83,Caxias do Sul Basquete
+2022,Franca,104,65,União Corinthians
+2022,Paulistano,90,73,Minas
+2022,São José,89,94,Brasília
+2022,Franca,84,83,Caxias do Sul Basquete
+2022,Corinthians,94,70,Pinheiros
+2022,Rio Claro,74,81,União Corinthians
+2022,São José,74,84,Flamengo
+2022,Caxias do Sul Basquete,73,84,Pato Basquete
+2022,Minas,90,61,Rio Claro
+2022,Caxias do Sul Basquete,62,72,Corinthians
+2022,União Corinthians,85,93,Pato Basquete
+2022,Basquete Cearense,81,111,São Paulo
+2022,Pinheiros,98,90,São José
+2022,União Corinthians,86,91,Corinthians
+2022,UNIFACISA,73,82,São Paulo
+2022,Pinheiros,95,73,Basquete Cearense
+2022,Cerrado Basquete,80,93,Paulistano
+2022,Bauru,68,76,UNIFACISA
+2022,Pinheiros,100,86,UNIFACISA
+2022,Cerrado Basquete,101,94,São Paulo
+2022,Brasília,72,82,Paulistano
+2022,Bauru,82,50,Basquete Cearense
+2022,Brasília,89,96,São Paulo
+2022,Pato Basquete,85,96,Bauru
+2022,UNIFACISA,63,56,Caxias do Sul Basquete
+2022,Basquete Cearense,83,94,União Corinthians
+2022,Corinthians,65,94,Minas
+2022,Paulistano,72,62,São José
+2022,São Paulo,66,91,Flamengo
+2022,Franca,98,76,Cerrado Basquete
+2022,Rio Claro,85,87,Brasília
+2022,Pato Basquete,74,88,Minas
+2022,UNIFACISA,71,66,União Corinthians
+2022,Corinthians,77,72,Bauru
+2022,Basquete Cearense,84,73,Caxias do Sul Basquete
+2022,Paulistano,84,90,Flamengo
+2022,Rio Claro,93,90,Cerrado Basquete
+2022,Franca,99,94,Brasília
+2022,São Paulo,96,68,São José
+2022,Pinheiros,68,65,Bauru
+2022,São José,73,83,Franca
+2022,São Paulo,100,83,Minas
+2022,Flamengo,110,57,Rio Claro
+2022,Flamengo,59,69,Franca
+2022,São José,98,63,Rio Claro
+2022,Brasília,79,66,Pato Basquete
+2022,Cerrado Basquete,89,79,Corinthians
+2022,União Corinthians,67,79,Bauru
+2022,Basquete Cearense,88,79,UNIFACISA
+2022,Caxias do Sul Basquete,69,77,Pinheiros
+2022,São Paulo,77,78,Paulistano
+2022,Brasília,88,101,Corinthians
+2022,Cerrado Basquete,109,110,Pato Basquete
+2022,Minas,88,87,UNIFACISA
+2022,União Corinthians,70,79,Pinheiros
+2022,Caxias do Sul Basquete,61,74,Bauru
+2022,São Paulo,102,105,Franca
+2022,Flamengo,89,75,Pato Basquete
+2022,Paulistano,64,70,Franca
+2022,Brasília,80,82,Basquete Cearense
+2022,Minas,63,58,Bauru
+2022,São José,96,69,Pato Basquete
+2022,São Paulo,92,76,Rio Claro
+2022,Flamengo,70,66,Pinheiros
+2022,Brasília,88,101,UNIFACISA
+2022,Cerrado Basquete,88,68,Basquete Cearense
+2022,Minas,74,67,Pinheiros
+2022,São José,88,81,Corinthians
+2022,Paulistano,76,66,Rio Claro
+2022,Cerrado Basquete,73,83,UNIFACISA
+2022,Pato Basquete,69,84,São Paulo
+2022,Pinheiros,95,65,Cerrado Basquete
+2022,Bauru,72,70,Brasília
+2022,Basquete Cearense,71,90,São José
+2022,União Corinthians,72,74,Caxias do Sul Basquete
+2022,Pato Basquete,75,87,Paulistano
+2022,Corinthians,73,85,São Paulo
+2022,Pinheiros,94,83,Brasília
+2022,Bauru,97,73,Cerrado Basquete
+2022,UNIFACISA,79,88,São José
+2022,Flamengo,90,64,Corinthians
+2022,Franca,95,73,Rio Claro
+2022,Pinheiros,79,89,São Paulo
+2022,São José,89,96,Minas
+2022,Cerrado Basquete,91,98,Caxias do Sul Basquete
+2022,Paulistano,81,82,Corinthians
+2022,Basquete Cearense,64,99,Flamengo
+2022,Franca,88,82,Pato Basquete
+2022,Brasília,78,88,Caxias do Sul Basquete
+2022,UNIFACISA,78,80,Flamengo
+2022,Rio Claro,100,93,Pato Basquete
+2022,Cerrado Basquete,99,107,União Corinthians
+2022,São José,66,93,Bauru
+2022,São Paulo,85,70,Basquete Cearense
+2022,Brasília,74,96,União Corinthians
+2022,Paulistano,80,78,Basquete Cearense
+2022,São José,94,92,Pinheiros
+2022,Pato Basquete,88,80,Caxias do Sul Basquete
+2022,Rio Claro,77,97,Corinthians
+2022,Paulistano,85,68,UNIFACISA
+2022,Franca,103,92,Corinthians
+2022,Caxias do Sul Basquete,80,63,Minas
+2022,Bauru,80,70,Paulistano
+2022,União Corinthians,78,82,Minas
+2022,UNIFACISA,80,83,Franca
+2022,Flamengo,66,54,Bauru
+2022,UNIFACISA,84,78,Rio Claro
+2022,Pinheiros,67,74,Paulistano
+2022,Basquete Cearense,65,102,Franca
+2022,Caxias do Sul Basquete,79,76,São José
+2022,Minas,99,70,Cerrado Basquete
+2022,Corinthians,102,78,Pato Basquete
+2022,Caxias do Sul Basquete,71,82,Flamengo
+2022,União Corinthians,80,68,São José
+2022,Basquete Cearense,75,99,Rio Claro
+2022,Minas,110,79,Brasília
+2022,São Paulo,79,99,UNIFACISA
+2022,Franca,90,82,Bauru
+2022,União Corinthians,78,77,Flamengo
+2022,Flamengo,79,78,Minas
+2022,Franca,95,75,Pinheiros
+2022,Bauru,74,81,São Paulo
+2022,Pato Basquete,82,87,Basquete Cearense
+2022,Corinthians,66,68,UNIFACISA
+2022,Brasília,86,65,Cerrado Basquete
+2022,Rio Claro,82,99,Pinheiros
+2022,Corinthians,84,85,Basquete Cearense
+2022,São Paulo,70,64,Caxias do Sul Basquete
+2022,Brasília,94,100,São José
+2022,Pato Basquete,82,71,UNIFACISA
+2022,Paulistano,83,58,Caxias do Sul Basquete
+2022,Rio Claro,84,69,Bauru
+2022,Cerrado Basquete,64,96,São José
+2022,São Paulo,99,76,União Corinthians
+2022,Pinheiros,76,69,Pato Basquete
+2022,Paulistano,82,80,União Corinthians
+2022,Bauru,75,63,Corinthians
+2022,São Paulo,88,72,Brasília
+2022,UNIFACISA,80,69,Basquete Cearense
+2022,Caxias do Sul Basquete,76,53,Rio Claro
+2022,Pinheiros,78,69,Corinthians
+2022,Bauru,74,55,Pato Basquete
+2022,Paulistano,91,77,Cerrado Basquete
+2022,União Corinthians,95,83,Rio Claro
+2022,Minas,87,76,São Paulo
+2022,Cerrado Basquete,70,102,Flamengo
+2022,Franca,94,90,Minas
+2022,UNIFACISA,69,80,Pinheiros
+2022,Pato Basquete,66,68,União Corinthians
+2022,Basquete Cearense,79,77,Bauru
+2022,Brasília,75,109,Flamengo
+2022,São José,71,77,Paulistano
+2022,Rio Claro,79,97,Minas
+2022,UNIFACISA,71,81,Bauru
+2022,Basquete Cearense,78,92,Pinheiros
+2022,Corinthians,82,78,União Corinthians
+2022,Caxias do Sul Basquete,76,89,Franca
+2022,União Corinthians,83,86,Franca
+2022,Flamengo,96,68,São José
+2022,Minas,88,86,Corinthians
+2022,Cerrado Basquete,109,84,Rio Claro
+2022,Bauru,82,71,Pinheiros
+2022,São José,97,84,São Paulo
+2022,Brasília,74,92,Rio Claro
+2022,Caxias do Sul Basquete,55,58,UNIFACISA
+2022,Minas,82,90,Pato Basquete
+2022,Flamengo,79,70,São Paulo
+2022,Franca,95,75,São José
+2022,União Corinthians,82,85,UNIFACISA
+2022,Minas,105,70,Paulistano
+2022,Corinthians,75,76,Caxias do Sul Basquete
+2022,Brasília,72,87,Franca
+2022,Pinheiros,89,82,Caxias do Sul Basquete
+2022,Flamengo,83,70,Paulistano
+2022,UNIFACISA,79,69,Minas
+2022,Cerrado Basquete,68,106,Franca
+2022,Pato Basquete,91,64,Brasília
+2022,Pinheiros,94,70,União Corinthians
+2022,Basquete Cearense,85,94,Minas
+2022,Rio Claro,53,100,Flamengo
+2022,Bauru,89,69,Caxias do Sul Basquete
+2022,Bauru,81,61,União Corinthians
+2022,Pato Basquete,98,91,Cerrado Basquete
+2022,Franca,83,70,Flamengo
+2022,Paulistano,99,57,São Paulo
+2022,Caxias do Sul Basquete,66,77,Basquete Cearense
+2022,Rio Claro,80,92,São José
+2022,Paulistano,113,71,Brasília
+2022,Corinthians,78,66,Cerrado Basquete
+2022,União Corinthians,91,75,Basquete Cearense
+2022,Corinthians,90,73,Brasília
+2022,São Paulo,95,64,Cerrado Basquete
+2022,São José,77,95,Bauru
+2022,Pato Basquete,82,70,Paulistano
+2022,Caxias do Sul Basquete,59,73,Pinheiros
+2022,UNIFACISA,95,77,Corinthians
+2022,Bauru,79,83,São José
+2022,Paulistano,90,57,Pato Basquete
+2022,Bauru,71,66,São José
+2022,Pinheiros,78,60,Caxias do Sul Basquete
+2022,Corinthians,70,81,UNIFACISA
+2022,Paulistano,92,78,Pato Basquete
+2022,Flamengo,90,58,Bauru
+2022,Minas,85,82,Paulistano
+2022,São Paulo,92,77,Pinheiros
+2022,Franca,91,100,UNIFACISA
+2022,Paulistano,80,76,Minas
+2022,Pinheiros,115,107,São Paulo
+2022,Bauru,76,85,Flamengo
+2022,UNIFACISA,73,86,Franca
+2022,Paulistano,68,77,Minas
+2022,Bauru,91,80,Flamengo
+2022,Pinheiros,60,77,São Paulo
+2022,UNIFACISA,92,90,Franca
+2022,São Paulo,85,73,Pinheiros
+2022,Flamengo,86,84,Bauru
+2022,Minas,68,83,Paulistano
+2022,Franca,100,78,UNIFACISA
+2022,Minas,71,67,Paulistano
+2022,Franca,83,74,UNIFACISA
+2022,Flamengo,72,80,São Paulo
+2022,Franca,112,98,Minas
+2022,São Paulo,96,79,Flamengo
+2022,Minas,103,89,Franca
+2022,São Paulo,72,69,Flamengo
+2022,Minas,91,95,Franca
+2022,Franca,90,93,Minas
+2022,Franca,93,79,Minas
+2022,Franca,88,98,São Paulo
+2022,São Paulo,80,88,Franca
+2022,São Paulo,92,94,Franca
+2022,Franca,81,86,São Paulo
+2022,Franca,92,68,São Paulo
+2023,Flamengo,70,87,Minas
+2023,Flamengo,84,71,Pato Basquete
+2023,Brasília,72,84,Corinthians
+2023,Botafogo,76,96,Minas
+2023,Franca,100,92,São Paulo
+2023,Cerrado Basquete,62,69,Pinheiros
+2023,Cerrado Basquete,58,67,Corinthians
+2023,Brasília,94,76,Pinheiros
+2023,Franca,89,50,Paulistano
+2023,Vasco da Gama,60,72,Minas
+2023,Bauru,87,66,São Paulo
+2023,Botafogo,71,79,Pato Basquete
+2023,Caxias do Sul Basquete,66,82,União Corinthians
+2023,São José,62,68,UNIFACISA
+2023,Mogi,63,65,Basquete Cearense
+2023,Bauru,75,71,Paulistano
+2023,Vasco da Gama,71,62,Pato Basquete
+2023,São José,78,82,Basquete Cearense
+2023,Mogi,68,82,UNIFACISA
+2023,União Corinthians,82,78,Botafogo
+2023,União Corinthians,65,74,Vasco da Gama
+2023,Caxias do Sul Basquete,74,67,Botafogo
+2023,Pato Basquete,83,65,Cerrado Basquete
+2023,Basquete Cearense,80,77,Bauru
+2023,Caxias do Sul Basquete,63,68,Vasco da Gama
+2023,Paulistano,71,52,São Paulo
+2023,UNIFACISA,89,58,Bauru
+2023,Pato Basquete,78,80,Brasília
+2023,Botafogo,62,79,Vasco da Gama
+2023,Paulistano,80,73,Basquete Cearense
+2023,Paulistano,67,55,UNIFACISA
+2023,São José,100,69,Pato Basquete
+2023,São Paulo,70,86,Basquete Cearense
+2023,Cerrado Basquete,94,67,União Corinthians
+2023,Franca,93,88,Corinthians
+2023,Flamengo,92,69,Botafogo
+2023,São José,67,77,Minas
+2023,Mogi,70,87,Pato Basquete
+2023,São Paulo,94,86,UNIFACISA
+2023,Cerrado Basquete,77,83,Caxias do Sul Basquete
+2023,Bauru,80,74,Corinthians
+2023,Brasília,82,92,União Corinthians
+2023,Pinheiros,68,72,Paulistano
+2023,Vasco da Gama,65,68,Flamengo
+2023,Mogi,70,79,Minas
+2023,Botafogo,79,86,Franca
+2023,Brasília,69,77,Caxias do Sul Basquete
+2023,Bauru,74,70,Pinheiros
+2023,Basquete Cearense,77,65,UNIFACISA
+2023,União Corinthians,74,66,Mogi
+2023,Franca,85,88,Pinheiros
+2023,Flamengo,89,71,Cerrado Basquete
+2023,Pato Basquete,73,70,Bauru
+2023,Corinthians,81,78,São Paulo
+2023,Botafogo,89,78,Brasília
+2023,Caxias do Sul Basquete,81,77,Mogi
+2023,União Corinthians,74,78,São José
+2023,Vasco da Gama,74,71,Cerrado Basquete
+2023,Flamengo,92,55,Brasília
+2023,Minas,99,80,Bauru
+2023,Pato Basquete,87,83,Franca
+2023,Pinheiros,75,81,São Paulo
+2023,Caxias do Sul Basquete,82,90,São José
+2023,Corinthians,71,79,Paulistano
+2023,Botafogo,74,73,Cerrado Basquete
+2023,Minas,71,81,Franca
+2023,Vasco da Gama,79,54,Brasília
+2023,Mogi,86,81,Botafogo
+2023,Bauru,95,67,União Corinthians
+2023,São Paulo,89,67,Pato Basquete
+2023,Basquete Cearense,87,84,Pinheiros
+2023,São José,82,64,Flamengo
+2023,Paulistano,79,68,Pato Basquete
+2023,Bauru,94,59,Caxias do Sul Basquete
+2023,Franca,101,56,União Corinthians
+2023,São José,96,72,Botafogo
+2023,UNIFACISA,85,78,Pinheiros
+2023,Mogi,86,95,Flamengo
+2023,São Paulo,75,83,Minas
+2023,Basquete Cearense,78,65,Corinthians
+2023,Cerrado Basquete,84,53,Brasília
+2023,Franca,89,60,Caxias do Sul Basquete
+2023,UNIFACISA,76,75,Corinthians
+2023,Mogi,79,95,Vasco da Gama
+2023,Paulistano,71,86,Minas
+2023,Flamengo,89,73,Bauru
+2023,São José,83,71,Vasco da Gama
+2023,Cerrado Basquete,70,62,Mogi
+2023,União Corinthians,51,63,Paulistano
+2023,Caxias do Sul Basquete,79,84,São Paulo
+2023,Botafogo,83,80,Bauru
+2023,Minas,85,82,UNIFACISA
+2023,Pato Basquete,75,76,Basquete Cearense
+2023,Brasília,81,80,Mogi
+2023,Corinthians,94,92,Pinheiros
+2023,Caxias do Sul Basquete,65,81,Paulistano
+2023,União Corinthians,74,81,São Paulo
+2023,Minas,93,88,Basquete Cearense
+2023,Pato Basquete,64,68,UNIFACISA
+2023,Flamengo,93,67,Franca
+2023,Cerrado Basquete,74,78,São José
+2023,Vasco da Gama,67,58,Bauru
+2023,Brasília,66,92,São José
+2023,Vasco da Gama,64,77,Franca
+2023,São Paulo,78,77,Botafogo
+2023,Paulistano,72,77,Flamengo
+2023,Corinthians,73,77,Mogi
+2023,Minas,67,68,Cerrado Basquete
+2023,UNIFACISA,94,80,Caxias do Sul Basquete
+2023,Basquete Cearense,74,78,União Corinthians
+2023,São Paulo,70,83,Flamengo
+2023,Franca,100,77,Brasília
+2023,Pinheiros,75,69,Mogi
+2023,Paulistano,85,77,Botafogo
+2023,Basquete Cearense,62,63,Caxias do Sul Basquete
+2023,UNIFACISA,86,80,União Corinthians
+2023,São Paulo,70,75,Vasco da Gama
+2023,Pinheiros,73,71,São José
+2023,Franca,80,77,Cerrado Basquete
+2023,Bauru,82,73,Brasília
+2023,Corinthians,86,91,Botafogo
+2023,Paulistano,70,76,Vasco da Gama
+2023,Bauru,90,81,Cerrado Basquete
+2023,São José,84,73,Mogi
+2023,Pinheiros,73,67,Vasco da Gama
+2023,Corinthians,105,96,Minas
+2023,Brasília,69,91,Paulistano
+2023,Corinthians,85,81,Pato Basquete
+2023,Pinheiros,61,91,Minas
+2023,Cerrado Basquete,64,68,Paulistano
+2023,Vasco da Gama,81,71,UNIFACISA
+2023,Botafogo,90,86,Basquete Cearense
+2023,Pinheiros,91,77,Pato Basquete
+2023,Mogi,87,88,Bauru
+2023,Caxias do Sul Basquete,79,80,Corinthians
+2023,Minas,91,71,Brasília
+2023,São José,74,82,Bauru
+2023,Botafogo,87,104,UNIFACISA
+2023,Cerrado Basquete,82,74,São Paulo
+2023,União Corinthians,82,92,Corinthians
+2023,Mogi,64,75,Franca
+2023,Caxias do Sul Basquete,73,64,Pinheiros
+2023,Flamengo,77,74,Basquete Cearense
+2023,Minas,84,75,Pato Basquete
+2023,Vasco da Gama,81,75,Basquete Cearense
+2023,Brasília,63,72,São Paulo
+2023,Flamengo,101,73,UNIFACISA
+2023,São José,63,75,Franca
+2023,União Corinthians,65,71,Pinheiros
+2023,Paulistano,92,78,Mogi
+2023,Minas,84,55,Caxias do Sul Basquete
+2023,Pato Basquete,79,63,União Corinthians
+2023,Basquete Cearense,87,76,Cerrado Basquete
+2023,UNIFACISA,93,69,Brasília
+2023,Corinthians,78,80,Vasco da Gama
+2023,Pinheiros,83,88,Flamengo
+2023,São Paulo,78,74,São José
+2023,Franca,97,75,Bauru
+2023,Paulistano,92,79,São José
+2023,Corinthians,72,95,Flamengo
+2023,Minas,95,71,União Corinthians
+2023,Pato Basquete,78,74,Caxias do Sul Basquete
+2023,Basquete Cearense,83,73,Brasília
+2023,UNIFACISA,92,80,Cerrado Basquete
+2023,Pinheiros,84,88,Botafogo
+2023,São Paulo,61,63,Mogi
+2023,Basquete Cearense,72,77,Franca
+2023,Caxias do Sul Basquete,84,85,Flamengo
+2023,UNIFACISA,101,98,Franca
+2023,União Corinthians,65,79,Flamengo
+2023,Corinthians,77,89,São José
+2023,Brasília,65,77,Pato Basquete
+2023,São Paulo,89,93,Bauru
+2023,Paulistano,55,66,Bauru
+2023,Cerrado Basquete,75,82,Pato Basquete
+2023,Minas,89,52,Botafogo
+2023,Flamengo,84,79,Vasco da Gama
+2023,São Paulo,84,98,Franca
+2023,São José,71,70,Corinthians
+2023,Mogi,75,76,Pinheiros
+2023,Paulistano,76,98,Franca
+2023,Minas,86,78,Flamengo
+2023,UNIFACISA,107,84,São Paulo
+2023,União Corinthians,79,75,Caxias do Sul Basquete
+2023,Basquete Cearense,75,81,São Paulo
+2023,Pato Basquete,97,91,Flamengo
+2023,Minas,81,61,Vasco da Gama
+2023,Botafogo,68,85,Paulistano
+2023,Franca,110,96,UNIFACISA
+2023,Pato Basquete,67,76,Vasco da Gama
+2023,São José,71,73,Pinheiros
+2023,Bauru,91,89,UNIFACISA
+2023,Franca,81,75,Basquete Cearense
+2023,Brasília,68,111,Minas
+2023,Bauru,93,88,Basquete Cearense
+2023,Botafogo,76,82,Caxias do Sul Basquete
+2023,Mogi,70,77,Corinthians
+2023,Cerrado Basquete,71,84,Minas
+2023,Botafogo,77,78,União Corinthians
+2023,Vasco da Gama,78,73,Caxias do Sul Basquete
+2023,Basquete Cearense,99,95,São José
+2023,UNIFACISA,79,68,Mogi
+2023,Corinthians,87,64,Brasília
+2023,Pinheiros,84,61,Cerrado Basquete
+2023,Vasco da Gama,89,77,União Corinthians
+2023,Flamengo,105,62,Caxias do Sul Basquete
+2023,São Paulo,90,71,Paulistano
+2023,Basquete Cearense,93,75,Mogi
+2023,Pato Basquete,97,86,Botafogo
+2023,UNIFACISA,84,68,São José
+2023,Corinthians,73,56,Cerrado Basquete
+2023,Pinheiros,88,92,Brasília
+2023,Flamengo,89,71,União Corinthians
+2023,Pato Basquete,80,88,São José
+2023,União Corinthians,75,103,Cerrado Basquete
+2023,UNIFACISA,73,80,Basquete Cearense
+2023,Botafogo,78,102,Flamengo
+2023,Corinthians,70,71,Bauru
+2023,União Corinthians,73,59,Brasília
+2023,Pato Basquete,74,80,São Paulo
+2023,Caxias do Sul Basquete,72,86,Cerrado Basquete
+2023,Minas,102,65,Mogi
+2023,Pinheiros,84,76,Bauru
+2023,UNIFACISA,69,75,Paulistano
+2023,Caxias do Sul Basquete,79,67,Brasília
+2023,Vasco da Gama,98,86,Botafogo
+2023,Basquete Cearense,51,64,Paulistano
+2023,Pinheiros,61,82,Franca
+2023,Corinthians,68,73,Franca
+2023,São José,111,86,União Corinthians
+2023,Mogi,81,74,Caxias do Sul Basquete
+2023,Basquete Cearense,84,75,Botafogo
+2023,Cerrado Basquete,83,86,Flamengo
+2023,Minas,86,94,São Paulo
+2023,Bauru,89,79,Pato Basquete
+2023,Paulistano,80,51,Pinheiros
+2023,São José,82,68,Caxias do Sul Basquete
+2023,UNIFACISA,96,66,Botafogo
+2023,Mogi,80,94,União Corinthians
+2023,São Paulo,82,90,Corinthians
+2023,Brasília,74,86,Flamengo
+2023,Bauru,76,81,Vasco da Gama
+2023,Franca,97,65,Pato Basquete
+2023,União Corinthians,98,92,UNIFACISA
+2023,Botafogo,90,93,São José
+2023,Franca,95,94,Minas
+2023,São Paulo,79,74,Pinheiros
+2023,Flamengo,77,49,Mogi
+2023,Brasília,73,95,Cerrado Basquete
+2023,Caxias do Sul Basquete,70,77,UNIFACISA
+2023,Basquete Cearense,90,69,Pato Basquete
+2023,Paulistano,71,81,Corinthians
+2023,Bauru,86,84,Minas
+2023,Vasco da Gama,79,73,Mogi
+2023,UNIFACISA,85,79,Pato Basquete
+2023,Botafogo,84,87,Mogi
+2023,Pinheiros,80,63,Caxias do Sul Basquete
+2023,Vasco da Gama,92,59,São José
+2023,União Corinthians,89,97,Bauru
+2023,Corinthians,102,82,Basquete Cearense
+2023,Cerrado Basquete,79,82,Botafogo
+2023,Brasília,84,89,Vasco da Gama
+2023,Caxias do Sul Basquete,75,79,Bauru
+2023,Pinheiros,72,61,Basquete Cearense
+2023,Corinthians,86,85,UNIFACISA
+2023,Pato Basquete,83,73,Paulistano
+2023,Mogi,79,64,São José
+2023,Cerrado Basquete,81,84,Vasco da Gama
+2023,Brasília,106,108,Botafogo
+2023,Minas,72,70,Paulistano
+2023,Pinheiros,67,89,UNIFACISA
+2023,Bauru,67,78,Franca
+2023,Flamengo,69,67,São José
+2023,Corinthians,81,70,União Corinthians
+2023,Bauru,74,72,Flamengo
+2023,Franca,97,74,Botafogo
+2023,Basquete Cearense,79,69,Minas
+2023,Paulistano,106,72,União Corinthians
+2023,Mogi,104,61,Brasília
+2023,São Paulo,74,67,Caxias do Sul Basquete
+2023,São José,71,69,Cerrado Basquete
+2023,Bauru,113,95,Botafogo
+2023,Franca,73,88,Flamengo
+2023,São José,103,85,Brasília
+2023,UNIFACISA,98,96,Minas
+2023,Mogi,70,65,Cerrado Basquete
+2023,São Paulo,71,60,União Corinthians
+2023,Pinheiros,77,90,Corinthians
+2023,Franca,93,67,Vasco da Gama
+2023,Minas,73,56,São José
+2023,Pato Basquete,100,73,Mogi
+2023,Botafogo,83,79,São Paulo
+2023,Caxias do Sul Basquete,69,91,Basquete Cearense
+2023,Cerrado Basquete,69,86,Bauru
+2023,Flamengo,81,68,Paulistano
+2023,Minas,81,51,Pinheiros
+2023,União Corinthians,85,93,Basquete Cearense
+2023,Caxias do Sul Basquete,79,89,Franca
+2023,Brasília,84,103,Bauru
+2023,Pato Basquete,100,87,Corinthians
+2023,Vasco da Gama,73,70,Paulistano
+2023,Flamengo,88,78,São Paulo
+2023,União Corinthians,84,96,Franca
+2023,Minas,91,73,Corinthians
+2023,Pato Basquete,83,79,Pinheiros
+2023,Vasco da Gama,70,80,São Paulo
+2023,Paulistano,95,50,Brasília
+2023,UNIFACISA,82,90,Flamengo
+2023,Franca,97,87,São José
+2023,Paulistano,82,71,Cerrado Basquete
+2023,Basquete Cearense,73,93,Flamengo
+2023,São Paulo,93,84,Brasília
+2023,Bauru,91,92,São José
+2023,Corinthians,107,93,Caxias do Sul Basquete
+2023,Franca,73,69,Mogi
+2023,UNIFACISA,77,63,Vasco da Gama
+2023,Pinheiros,83,59,União Corinthians
+2023,São Paulo,79,70,Cerrado Basquete
+2023,Paulistano,75,56,Caxias do Sul Basquete
+2023,Pato Basquete,69,77,Minas
+2023,Basquete Cearense,70,69,Vasco da Gama
+2023,Brasília,100,105,Franca
+2023,Flamengo,88,58,Corinthians
+2023,Mogi,81,79,São Paulo
+2023,Cerrado Basquete,70,95,Franca
+2023,Brasília,83,102,UNIFACISA
+2023,Botafogo,72,116,Corinthians
+2023,Flamengo,73,59,Pinheiros
+2023,Mogi,64,61,Paulistano
+2023,São José,72,63,São Paulo
+2023,Cerrado Basquete,84,90,UNIFACISA
+2023,União Corinthians,75,77,Pato Basquete
+2023,Botafogo,93,69,Pinheiros
+2023,Caxias do Sul Basquete,88,99,Minas
+2023,Vasco da Gama,87,78,Corinthians
+2023,Brasília,69,68,Basquete Cearense
+2023,São José,64,93,Paulistano
+2023,União Corinthians,78,88,Minas
+2023,Caxias do Sul Basquete,68,85,Pato Basquete
+2023,Cerrado Basquete,83,84,Basquete Cearense
+2023,Vasco da Gama,63,72,Pinheiros
+2023,Bauru,80,68,Mogi
+2023,Corinthians,65,83,Paulistano
+2023,Mogi,66,78,Franca
+2023,União Corinthians,73,83,Minas
+2023,São Paulo,99,93,UNIFACISA
+2023,Pinheiros,56,64,Vasco da Gama
+2023,Botafogo,87,92,Flamengo
+2023,Pato Basquete,74,93,Bauru
+2023,São José,70,73,Basquete Cearense
+2023,Paulistano,77,68,Corinthians
+2023,Franca,97,57,Mogi
+2023,Minas,81,73,União Corinthians
+2023,UNIFACISA,107,104,São Paulo
+2023,UNIFACISA,82,88,São Paulo
+2023,Vasco da Gama,85,70,Pinheiros
+2023,Flamengo,78,56,Botafogo
+2023,Basquete Cearense,90,66,São José
+2023,Bauru,71,62,Pato Basquete
+2023,Franca,64,61,Paulistano
+2023,Minas,84,59,São Paulo
+2023,Flamengo,79,71,Basquete Cearense
+2023,Vasco da Gama,84,78,Bauru
+2023,Paulistano,75,89,Franca
+2023,São Paulo,105,74,Minas
+2023,Basquete Cearense,66,86,Flamengo
+2023,Bauru,80,66,Vasco da Gama
+2023,Paulistano,73,80,Franca
+2023,São Paulo,86,84,Minas
+2023,Basquete Cearense,68,83,Flamengo
+2023,Bauru,67,59,Vasco da Gama
+2023,Minas,104,79,São Paulo
+2023,Vasco da Gama,95,87,Bauru
+2023,Minas,98,67,São Paulo
+2024,Vasco da Gama,50,59,Flamengo
+2024,Minas,74,66,Brasília
+2024,Mogi,72,67,Paulistano
+2024,Pinheiros,68,67,Pato Basquete
+2024,São José,70,81,Botafogo
+2024,Paulistano,80,62,Pinheiros
+2024,Corinthians,86,89,Pato Basquete
+2024,Mogi,70,72,Botafogo
+2024,Bauru,93,91,Brasília
+2024,Basquete Cearense,76,68,Caxias do Sul Basquete
+2024,UNIFACISA,83,71,União Corinthians
+2024,São José,59,68,Vasco da Gama
+2024,Franca,82,76,Minas
+2024,São José,63,71,Flamengo
+2024,Bauru,81,82,Minas
+2024,Pato Basquete,81,88,São Paulo
+2024,Franca,79,74,Brasília
+2024,Mogi,66,65,Vasco da Gama
+2024,UNIFACISA,63,81,Caxias do Sul Basquete
+2024,Basquete Cearense,70,79,União Corinthians
+2024,Mogi,66,114,Flamengo
+2024,Corinthians,80,82,São Paulo
+2024,Minas,91,64,São José
+2024,Vasco da Gama,62,65,Pinheiros
+2024,Pato Basquete,89,60,Basquete Cearense
+2024,São Paulo,82,66,Franca
+2024,Botafogo,58,73,Corinthians
+2024,Caxias do Sul Basquete,77,89,União Corinthians
+2024,Brasília,81,76,São José
+2024,Botafogo,67,80,Pinheiros
+2024,Minas,91,61,Mogi
+2024,Paulistano,90,100,Franca
+2024,Flamengo,70,83,Corinthians
+2024,Pato Basquete,85,77,UNIFACISA
+2024,Brasília,86,80,Mogi
+2024,Flamengo,66,61,Pinheiros
+2024,São Paulo,78,68,Bauru
+2024,Basquete Cearense,52,77,Botafogo
+2024,Paulistano,79,83,Bauru
+2024,Franca,93,70,Pato Basquete
+2024,Basquete Cearense,56,78,Flamengo
+2024,Pinheiros,67,77,Minas
+2024,UNIFACISA,90,74,Botafogo
+2024,São Paulo,86,84,Paulistano
+2024,Corinthians,60,86,Minas
+2024,Caxias do Sul Basquete,81,80,Pato Basquete
+2024,Pinheiros,75,89,Brasília
+2024,Bauru,76,70,Franca
+2024,Basquete Cearense,68,70,Vasco da Gama
+2024,UNIFACISA,77,87,Flamengo
+2024,Mogi,78,74,São Paulo
+2024,Paulistano,88,70,Botafogo
+2024,Corinthians,99,105,Brasília
+2024,Bauru,73,67,São José
+2024,União Corinthians,81,70,Pato Basquete
+2024,UNIFACISA,72,81,Vasco da Gama
+2024,Flamengo,84,55,Caxias do Sul Basquete
+2024,Franca,77,86,São José
+2024,Paulistano,69,75,Corinthians
+2024,São Paulo,69,76,Pinheiros
+2024,Brasília,73,72,Basquete Cearense
+2024,Botafogo,71,80,União Corinthians
+2024,Franca,77,68,Mogi
+2024,Minas,86,64,Basquete Cearense
+2024,Vasco da Gama,80,71,Caxias do Sul Basquete
+2024,São Paulo,77,75,Flamengo
+2024,Bauru,68,66,Mogi
+2024,São José,62,75,Paulistano
+2024,Brasília,77,72,UNIFACISA
+2024,Vasco da Gama,79,81,União Corinthians
+2024,Corinthians,75,83,Franca
+2024,Botafogo,63,69,Caxias do Sul Basquete
+2024,Minas,78,76,UNIFACISA
+2024,Basquete Cearense,66,49,Paulistano
+2024,São José,79,68,São Paulo
+2024,Pinheiros,87,76,Franca
+2024,Flamengo,95,77,União Corinthians
+2024,Pato Basquete,76,84,Vasco da Gama
+2024,Corinthians,103,87,Bauru
+2024,Flamengo,91,67,Botafogo
+2024,Basquete Cearense,79,80,São Paulo
+2024,União Corinthians,71,89,Minas
+2024,UNIFACISA,69,86,Paulistano
+2024,Caxias do Sul Basquete,71,76,Brasília
+2024,Pinheiros,80,87,Bauru
+2024,São José,89,79,Mogi
+2024,Botafogo,68,66,Vasco da Gama
+2024,Flamengo,88,65,Franca
+2024,Caxias do Sul Basquete,58,78,Minas
+2024,União Corinthians,76,78,Brasília
+2024,Vasco da Gama,90,84,Corinthians
+2024,Pato Basquete,66,65,Paulistano
+2024,UNIFACISA,88,84,São Paulo
+2024,Bauru,80,71,Basquete Cearense
+2024,São José,88,66,Caxias do Sul Basquete
+2024,Mogi,82,85,União Corinthians
+2024,Corinthians,69,89,Pinheiros
+2024,Pato Basquete,98,78,Botafogo
+2024,São José,98,82,União Corinthians
+2024,Franca,97,71,Basquete Cearense
+2024,Mogi,74,71,Caxias do Sul Basquete
+2024,Flamengo,70,81,Minas
+2024,Bauru,70,61,UNIFACISA
+2024,São José,83,78,Corinthians
+2024,Franca,68,71,UNIFACISA
+2024,Botafogo,68,95,Minas
+2024,Mogi,53,73,Pinheiros
+2024,Pato Basquete,103,110,Flamengo
+2024,Caxias do Sul Basquete,66,71,Bauru
+2024,Paulistano,70,76,Vasco da Gama
+2024,Minas,97,70,Pato Basquete
+2024,União Corinthians,83,77,Bauru
+2024,Botafogo,67,89,Brasília
+2024,Caxias do Sul Basquete,76,82,Franca
+2024,Basquete Cearense,76,69,Mogi
+2024,UNIFACISA,70,58,São José
+2024,São Paulo,84,87,Vasco da Gama
+2024,União Corinthians,72,92,Franca
+2024,Flamengo,90,84,Brasília
+2024,Basquete Cearense,55,75,São José
+2024,UNIFACISA,66,70,Mogi
+2024,Vasco da Gama,81,64,Minas
+2024,Paulistano,78,65,União Corinthians
+2024,São Paulo,89,79,Caxias do Sul Basquete
+2024,Paulistano,82,72,Caxias do Sul Basquete
+2024,Vasco da Gama,79,88,Brasília
+2024,Corinthians,92,83,Basquete Cearense
+2024,Pinheiros,78,82,UNIFACISA
+2024,São Paulo,70,80,União Corinthians
+2024,Bauru,97,91,Pato Basquete
+2024,Corinthians,77,80,UNIFACISA
+2024,Pinheiros,76,74,Basquete Cearense
+2024,São Paulo,82,71,Botafogo
+2024,Brasília,98,94,Pato Basquete
+2024,São José,76,77,Pinheiros
+2024,Mogi,70,72,Corinthians
+2024,Botafogo,93,92,Bauru
+2024,Brasília,87,102,Paulistano
+2024,UNIFACISA,77,81,Basquete Cearense
+2024,Pato Basquete,85,81,São José
+2024,Minas,86,82,Paulistano
+2024,Flamengo,94,79,Bauru
+2024,Brasília,83,85,São Paulo
+2024,Vasco da Gama,69,88,Franca
+2024,Caxias do Sul Basquete,92,101,Pinheiros
+2024,Pato Basquete,90,106,Mogi
+2024,União Corinthians,79,64,Corinthians
+2024,Minas,77,63,São Paulo
+2024,Paulistano,75,89,Flamengo
+2024,União Corinthians,80,73,Pinheiros
+2024,Botafogo,73,86,Franca
+2024,Vasco da Gama,81,63,Bauru
+2024,Caxias do Sul Basquete,80,79,Corinthians
+2024,Minas,83,73,Bauru
+2024,Pato Basquete,90,86,Pinheiros
+2024,União Corinthians,75,76,UNIFACISA
+2024,Flamengo,82,89,São José
+2024,Botafogo,97,85,Mogi
+2024,Brasília,91,86,Franca
+2024,Caxias do Sul Basquete,73,70,Basquete Cearense
+2024,Paulistano,80,76,São Paulo
+2024,Minas,92,73,Franca
+2024,Brasília,77,67,Bauru
+2024,Caxias do Sul Basquete,65,78,UNIFACISA
+2024,União Corinthians,82,71,Basquete Cearense
+2024,Vasco da Gama,69,75,São José
+2024,Flamengo,81,60,Mogi
+2024,Pato Basquete,76,85,Corinthians
+2024,Corinthians,99,79,Vasco da Gama
+2024,Pinheiros,75,63,Botafogo
+2024,Paulistano,76,63,Mogi
+2024,UNIFACISA,80,67,Pato Basquete
+2024,Bauru,75,73,São Paulo
+2024,Corinthians,84,79,Botafogo
+2024,Pinheiros,87,70,Vasco da Gama
+2024,São José,94,79,Brasília
+2024,Basquete Cearense,80,76,Pato Basquete
+2024,União Corinthians,78,77,Caxias do Sul Basquete
+2024,Mogi,89,71,Brasília
+2024,Vasco da Gama,76,74,UNIFACISA
+2024,Botafogo,71,83,UNIFACISA
+2024,Corinthians,95,87,Flamengo
+2024,São Paulo,69,80,Mogi
+2024,Vasco da Gama,75,74,Basquete Cearense
+2024,Pinheiros,65,86,Flamengo
+2024,Franca,84,86,Paulistano
+2024,Bauru,73,85,Paulistano
+2024,Pato Basquete,78,65,Caxias do Sul Basquete
+2024,São José,98,88,Minas
+2024,Botafogo,74,83,Basquete Cearense
+2024,Franca,75,65,São Paulo
+2024,Pato Basquete,81,74,União Corinthians
+2024,Brasília,74,70,Corinthians
+2024,Mogi,68,79,Minas
+2024,São Paulo,80,89,São José
+2024,Caxias do Sul Basquete,88,82,Vasco da Gama
+2024,Mogi,97,93,São José
+2024,São Paulo,66,90,Corinthians
+2024,UNIFACISA,80,67,Brasília
+2024,Pato Basquete,91,94,Bauru
+2024,Pinheiros,61,69,Paulistano
+2024,União Corinthians,84,71,Vasco da Gama
+2024,Caxias do Sul Basquete,78,67,Botafogo
+2024,Basquete Cearense,62,84,Brasília
+2024,Pinheiros,80,71,São Paulo
+2024,União Corinthians,90,77,Botafogo
+2024,Mogi,62,80,Bauru
+2024,Corinthians,74,65,Paulistano
+2024,Brasília,83,77,Caxias do Sul Basquete
+2024,São Paulo,68,66,UNIFACISA
+2024,Minas,63,72,Corinthians
+2024,Paulistano,93,78,São José
+2024,Flamengo,84,79,Basquete Cearense
+2024,Brasília,95,71,União Corinthians
+2024,Mogi,81,91,Franca
+2024,Vasco da Gama,98,86,Pato Basquete
+2024,Minas,70,59,Pinheiros
+2024,Flamengo,85,71,UNIFACISA
+2024,Botafogo,91,76,Pato Basquete
+2024,Bauru,74,64,Corinthians
+2024,São José,68,105,Franca
+2024,Brasília,72,70,Pinheiros
+2024,Paulistano,75,77,UNIFACISA
+2024,São José,83,78,Bauru
+2024,Franca,98,89,Corinthians
+2024,Basquete Cearense,86,92,Minas
+2024,Flamengo,91,81,Pato Basquete
+2024,Vasco da Gama,104,82,Mogi
+2024,Botafogo,71,68,São José
+2024,União Corinthians,77,82,Flamengo
+2024,UNIFACISA,77,79,Minas
+2024,Franca,91,82,Pinheiros
+2024,São Paulo,75,79,Basquete Cearense
+2024,Bauru,84,81,Pinheiros
+2024,Caxias do Sul Basquete,85,82,Flamengo
+2024,Paulistano,84,87,Basquete Cearense
+2024,Corinthians,72,77,São José
+2024,Vasco da Gama,88,78,São Paulo
+2024,Basquete Cearense,66,74,Bauru
+2024,Pinheiros,91,77,Mogi
+2024,Caxias do Sul Basquete,76,65,São Paulo
+2024,Vasco da Gama,80,66,Botafogo
+2024,Pato Basquete,98,80,Brasília
+2024,UNIFACISA,77,74,Bauru
+2024,Caxias do Sul Basquete,99,95,Paulistano
+2024,Corinthians,93,73,Mogi
+2024,União Corinthians,95,74,São Paulo
+2024,Brasília,94,71,Botafogo
+2024,União Corinthians,83,78,Paulistano
+2024,Pinheiros,89,80,São José
+2024,Franca,93,71,Bauru
+2024,Minas,94,70,Flamengo
+2024,Minas,88,70,Caxias do Sul Basquete
+2024,Paulistano,77,94,Pato Basquete
+2024,UNIFACISA,71,83,Franca
+2024,Flamengo,84,78,Vasco da Gama
+2024,Basquete Cearense,74,83,Franca
+2024,São Paulo,65,69,Pato Basquete
+2024,Botafogo,85,92,Flamengo
+2024,Pinheiros,83,76,Corinthians
+2024,Bauru,84,67,Caxias do Sul Basquete
+2024,Minas,92,81,União Corinthians
+2024,São José,84,71,Basquete Cearense
+2024,Franca,117,57,Caxias do Sul Basquete
+2024,Mogi,66,82,UNIFACISA
+2024,Brasília,63,77,Minas
+2024,Vasco da Gama,78,66,Paulistano
+2024,São José,78,66,UNIFACISA
+2024,Franca,73,55,União Corinthians
+2024,Mogi,75,63,Basquete Cearense
+2024,Pato Basquete,72,75,Minas
+2024,Botafogo,64,85,Paulistano
+2024,Flamengo,105,86,São Paulo
+2024,Bauru,89,69,União Corinthians
+2024,Brasília,77,79,Vasco da Gama
+2024,Botafogo,86,85,São Paulo
+2024,Pato Basquete,67,76,Franca
+2024,Flamengo,70,63,Paulistano
+2024,Minas,76,69,Vasco da Gama
+2024,Basquete Cearense,79,67,Corinthians
+2024,UNIFACISA,82,66,Pinheiros
+2024,Brasília,79,88,Flamengo
+2024,Minas,97,59,Botafogo
+2024,União Corinthians,77,76,São José
+2024,Caxias do Sul Basquete,82,75,Mogi
+2024,Basquete Cearense,73,82,Pinheiros
+2024,Franca,91,66,Vasco da Gama
+2024,UNIFACISA,74,83,Corinthians
+2024,União Corinthians,96,79,Mogi
+2024,Caxias do Sul Basquete,73,77,São José
+2024,São Paulo,71,67,Minas
+2024,Franca,80,62,Botafogo
+2024,Bauru,84,88,Flamengo
+2024,Paulistano,66,76,Minas
+2024,Franca,97,91,Flamengo
+2024,Mogi,90,76,Pato Basquete
+2024,Pinheiros,86,55,União Corinthians
+2024,Corinthians,103,98,Caxias do Sul Basquete
+2024,Basquete Cearense,81,73,UNIFACISA
+2024,Bauru,75,69,Vasco da Gama
+2024,Paulistano,81,69,Brasília
+2024,São José,77,89,Pato Basquete
+2024,Corinthians,111,81,União Corinthians
+2024,Pinheiros,81,65,Caxias do Sul Basquete
+2024,Bauru,84,85,Botafogo
+2024,São Paulo,88,79,Brasília
+2024,UNIFACISA,50,68,Pinheiros
+2024,Paulistano,93,77,Bauru
+2024,São José,75,85,Vasco da Gama
+2024,Caxias do Sul Basquete,52,98,Flamengo
+2024,Pato Basquete,91,96,Franca
+2024,São Paulo,66,62,Brasília
+2024,Bauru,81,63,Paulistano
+2024,Pinheiros,77,83,UNIFACISA
+2024,Corinthians,97,93,União Corinthians
+2024,Vasco da Gama,89,83,São José
+2024,Mogi,72,85,Minas
+2024,Pinheiros,77,76,UNIFACISA
+2024,Flamengo,76,78,Caxias do Sul Basquete
+2024,Bauru,60,62,Paulistano
+2024,Vasco da Gama,78,81,São José
+2024,União Corinthians,93,71,Corinthians
+2024,Brasília,54,69,São Paulo
+2024,Minas,88,65,Mogi
+2024,Franca,84,65,Pato Basquete
+2024,Flamengo,80,77,Caxias do Sul Basquete
+2024,União Corinthians,80,92,Corinthians
+2024,Paulistano,54,84,Bauru
+2024,Brasília,86,81,São Paulo
+2024,Minas,76,57,Mogi
+2024,Franca,101,82,Pato Basquete
+2024,UNIFACISA,86,79,Pinheiros
+2024,São José,83,88,Vasco da Gama
+2024,Caxias do Sul Basquete,63,86,Flamengo
+2024,Corinthians,79,72,União Corinthians
+2024,Bauru,85,80,Paulistano
+2024,São Paulo,78,77,Brasília
+2024,Pinheiros,72,58,UNIFACISA
+2024,Vasco da Gama,86,90,Minas
+2024,São Paulo,85,96,Bauru
+2024,Corinthians,88,94,Flamengo
+2024,Pinheiros,76,89,Franca
+2024,Minas,86,76,Vasco da Gama
+2024,Bauru,84,67,São Paulo
+2024,Franca,70,71,Pinheiros
+2024,Flamengo,73,90,Corinthians
+2024,Minas,83,63,Vasco da Gama
+2024,Bauru,89,85,São Paulo
+2024,Flamengo,85,82,Corinthians
+2024,Franca,92,69,Pinheiros
+2024,Corinthians,78,80,Flamengo
+2024,Pinheiros,72,66,Franca
+2024,Franca,83,58,Pinheiros
+2024,Bauru,59,74,Minas
+2024,Franca,93,107,Flamengo
+2024,Minas,73,69,Bauru
+2024,Flamengo,78,85,Franca
+2024,Minas,70,65,Bauru
+2024,Flamengo,86,75,Franca
+2024,Franca,102,86,Flamengo
+2024,Flamengo,95,98,Franca
+2024,Franca,65,69,Minas
+2024,Minas,78,94,Franca
+2024,Minas,73,83,Franca
+2024,Franca,86,73,Minas
+2025,Vasco da Gama,78,88,Basquete Cearense
+2025,Cruzeiro,62,85,São José
+2025,Bauru,86,102,Flamengo
+2025,Minas,83,81,Corinthians
+2025,Rio Claro,86,88,Pinheiros
+2025,Basket Osasco,60,105,Franca
+2025,Minas,88,86,São José
+2025,Paulistano,66,59,Bauru
+2025,Botafogo,80,84,Basquete Cearense
+2025,Caxias do Sul Basquete,70,63,Pato Basquete
+2025,Pinheiros,69,87,Franca
+2025,Flamengo,80,70,UNIFACISA
+2025,Cruzeiro,65,81,Corinthians
+2025,Brasília,77,74,Basket Osasco
+2025,Botafogo,85,76,Vasco da Gama
+2025,Minas,79,71,Mogi
+2025,União Corinthians,92,88,Pato Basquete
+2025,Flamengo,102,73,Basquete Cearense
+2025,Pinheiros,83,60,Bauru
+2025,Paulistano,69,71,Franca
+2025,Vasco da Gama,80,84,UNIFACISA
+2025,Cruzeiro,84,103,Mogi
+2025,Basket Osasco,69,82,Bauru
+2025,Brasília,109,57,Rio Claro
+2025,Botafogo,72,85,UNIFACISA
+2025,Pato Basquete,75,76,Minas
+2025,São José,61,57,Vasco da Gama
+2025,Franca,73,75,Caxias do Sul Basquete
+2025,Bauru,60,52,União Corinthians
+2025,Rio Claro,89,87,Paulistano
+2025,Mogi,87,45,Botafogo
+2025,São José,72,88,Flamengo
+2025,Pato Basquete,69,71,Cruzeiro
+2025,Corinthians,81,64,Vasco da Gama
+2025,Franca,96,77,União Corinthians
+2025,Bauru,75,64,Caxias do Sul Basquete
+2025,Rio Claro,103,104,Basket Osasco
+2025,Brasília,71,54,Paulistano
+2025,UNIFACISA,85,71,Basquete Cearense
+2025,Corinthians,77,103,Flamengo
+2025,Cruzeiro,76,84,Minas
+2025,Brasília,67,69,Pinheiros
+2025,Mogi,79,57,Vasco da Gama
+2025,São José,77,64,Botafogo
+2025,Caxias do Sul Basquete,92,79,Rio Claro
+2025,Mogi,67,69,Flamengo
+2025,Corinthians,90,75,Botafogo
+2025,Cruzeiro,76,75,Bauru
+2025,Pinheiros,91,75,Basket Osasco
+2025,Minas,86,70,Franca
+2025,Paulistano,80,71,São José
+2025,Vasco da Gama,65,70,Pato Basquete
+2025,Basquete Cearense,82,98,Corinthians
+2025,Basket Osasco,67,88,Flamengo
+2025,Caxias do Sul Basquete,64,96,Brasília
+2025,União Corinthians,68,61,Rio Claro
+2025,Cruzeiro,81,90,Franca
+2025,Paulistano,81,76,Pinheiros
+2025,UNIFACISA,63,74,Mogi
+2025,União Corinthians,95,88,Brasília
+2025,Botafogo,82,75,Pato Basquete
+2025,Rio Claro,74,108,Minas
+2025,UNIFACISA,75,105,Corinthians
+2025,Pinheiros,82,59,Caxias do Sul Basquete
+2025,Flamengo,101,63,Pato Basquete
+2025,Basket Osasco,81,94,Paulistano
+2025,Basquete Cearense,76,80,Mogi
+2025,Franca,91,61,Botafogo
+2025,Brasília,80,78,Minas
+2025,Pinheiros,102,84,União Corinthians
+2025,Corinthians,78,64,São José
+2025,Rio Claro,99,77,Cruzeiro
+2025,Franca,72,86,Flamengo
+2025,Basket Osasco,69,60,Vasco da Gama
+2025,Pato Basquete,62,77,UNIFACISA
+2025,Bauru,73,71,Botafogo
+2025,Paulistano,101,65,União Corinthians
+2025,Pato Basquete,82,79,Basquete Cearense
+2025,Mogi,95,55,Rio Claro
+2025,Brasília,79,65,Cruzeiro
+2025,Paulistano,80,82,Flamengo
+2025,Minas,86,81,Basket Osasco
+2025,Bauru,77,54,Vasco da Gama
+2025,UNIFACISA,85,87,São José
+2025,Franca,103,61,Vasco da Gama
+2025,União Corinthians,77,75,Caxias do Sul Basquete
+2025,Mogi,86,58,Pato Basquete
+2025,Cruzeiro,98,76,Basket Osasco
+2025,Minas,94,63,Paulistano
+2025,UNIFACISA,86,66,Bauru
+2025,Basquete Cearense,77,86,São José
+2025,Botafogo,70,82,Brasília
+2025,Corinthians,87,68,Pato Basquete
+2025,Flamengo,83,85,Brasília
+2025,Basquete Cearense,91,72,Bauru
+2025,UNIFACISA,81,93,Franca
+2025,Cruzeiro,86,106,Paulistano
+2025,Botafogo,74,61,Rio Claro
+2025,Minas,77,81,Pinheiros
+2025,Basket Osasco,75,79,Caxias do Sul Basquete
+2025,Mogi,101,71,União Corinthians
+2025,Flamengo,84,72,Rio Claro
+2025,São José,86,71,Pato Basquete
+2025,Minas,94,88,Bauru
+2025,Paulistano,77,66,Caxias do Sul Basquete
+2025,Cruzeiro,89,102,Pinheiros
+2025,Basquete Cearense,70,82,Franca
+2025,Vasco da Gama,59,81,Brasília
+2025,Basket Osasco,79,76,União Corinthians
+2025,Mogi,67,70,Corinthians
+2025,Vasco da Gama,81,84,Rio Claro
+2025,Caxias do Sul Basquete,78,63,Cruzeiro
+2025,Basket Osasco,79,70,Botafogo
+2025,Franca,80,71,Corinthians
+2025,Bauru,84,91,São José
+2025,Caxias do Sul Basquete,72,88,Minas
+2025,União Corinthians,87,76,Cruzeiro
+2025,Pinheiros,83,67,Flamengo
+2025,Paulistano,101,77,Botafogo
+2025,Basket Osasco,68,93,Mogi
+2025,Rio Claro,78,85,UNIFACISA
+2025,Brasília,105,90,Basquete Cearense
+2025,Franca,104,85,São José
+2025,União Corinthians,71,74,Minas
+2025,Brasília,84,81,UNIFACISA
+2025,Flamengo,91,66,Caxias do Sul Basquete
+2025,Pato Basquete,67,59,Paulistano
+2025,Rio Claro,98,95,Basquete Cearense
+2025,Botafogo,75,80,Caxias do Sul Basquete
+2025,Rio Claro,101,109,Pato Basquete
+2025,Basquete Cearense,89,82,Basket Osasco
+2025,Bauru,94,84,Corinthians
+2025,São José,87,73,Brasília
+2025,Pinheiros,84,69,Mogi
+2025,Paulistano,65,69,Vasco da Gama
+2025,Bauru,62,58,Mogi
+2025,São José,95,64,Rio Claro
+2025,UNIFACISA,89,70,Basket Osasco
+2025,Corinthians,79,66,Brasília
+2025,Pinheiros,84,70,Vasco da Gama
+2025,Botafogo,61,84,União Corinthians
+2025,Basquete Cearense,77,100,Paulistano
+2025,Pato Basquete,61,69,Bauru
+2025,Corinthians,67,57,Rio Claro
+2025,São José,61,74,Caxias do Sul Basquete
+2025,UNIFACISA,79,89,Pinheiros
+2025,Mogi,57,68,Brasília
+2025,Cruzeiro,89,65,Botafogo
+2025,Vasco da Gama,78,85,União Corinthians
+2025,Basket Osasco,80,81,Corinthians
+2025,UNIFACISA,82,70,Paulistano
+2025,Flamengo,82,65,União Corinthians
+2025,Minas,95,88,Botafogo
+2025,Basquete Cearense,61,108,Pinheiros
+2025,Pato Basquete,71,93,Franca
+2025,Vasco da Gama,80,79,Caxias do Sul Basquete
+2025,São José,79,61,Mogi
+2025,Franca,85,68,Bauru
+2025,Pato Basquete,82,67,Basket Osasco
+2025,Caxias do Sul Basquete,89,80,UNIFACISA
+2025,Cruzeiro,80,93,Flamengo
+2025,Minas,71,59,Vasco da Gama
+2025,Pinheiros,109,80,Corinthians
+2025,União Corinthians,95,62,Basquete Cearense
+2025,Bauru,84,68,Rio Claro
+2025,Minas,85,87,Flamengo
+2025,Franca,85,61,Mogi
+2025,Paulistano,86,81,Corinthians
+2025,Caxias do Sul Basquete,68,52,Basquete Cearense
+2025,União Corinthians,85,78,UNIFACISA
+2025,Cruzeiro,79,75,Vasco da Gama
+2025,Pinheiros,98,83,São José
+2025,Brasília,84,69,Pato Basquete
+2025,Corinthians,100,60,Caxias do Sul Basquete
+2025,Basquete Cearense,81,99,Minas
+2025,Franca,92,84,Brasília
+2025,Paulistano,81,66,Mogi
+2025,Pinheiros,77,64,Botafogo
+2025,São José,89,87,União Corinthians
+2025,Vasco da Gama,80,102,Flamengo
+2025,UNIFACISA,85,77,Cruzeiro
+2025,Franca,82,74,Rio Claro
+2025,Basquete Cearense,78,86,Cruzeiro
+2025,Bauru,66,71,Brasília
+2025,Pato Basquete,67,94,Pinheiros
+2025,Basket Osasco,73,92,São José
+2025,UNIFACISA,102,107,Minas
+2025,Mogi,71,56,Caxias do Sul Basquete
+2025,Flamengo,104,71,Botafogo
+2025,Corinthians,88,76,União Corinthians
+2025,UNIFACISA,89,88,Flamengo
+2025,Franca,104,74,Basket Osasco
+2025,Corinthians,74,92,Minas
+2025,São José,88,81,Paulistano
+2025,Pato Basquete,85,91,Caxias do Sul Basquete
+2025,Rio Claro,60,78,Brasília
+2025,Basquete Cearense,81,88,Flamengo
+2025,Corinthians,95,83,Cruzeiro
+2025,Franca,95,81,Pinheiros
+2025,Mogi,90,76,Minas
+2025,Bauru,94,86,Basket Osasco
+2025,UNIFACISA,78,75,Vasco da Gama
+2025,Bauru,101,94,Pinheiros
+2025,Pato Basquete,72,80,União Corinthians
+2025,Brasília,77,65,Caxias do Sul Basquete
+2025,Basquete Cearense,73,78,Vasco da Gama
+2025,UNIFACISA,77,68,Botafogo
+2025,Flamengo,94,88,Corinthians
+2025,São José,98,91,Cruzeiro
+2025,Bauru,87,89,Paulistano
+2025,Basquete Cearense,86,82,Botafogo
+2025,Basket Osasco,64,96,Brasília
+2025,Pinheiros,93,65,Rio Claro
+2025,Vasco da Gama,67,75,Corinthians
+2025,União Corinthians,98,95,Franca
+2025,São José,91,95,Minas
+2025,Caxias do Sul Basquete,73,74,Bauru
+2025,Paulistano,83,81,Brasília
+2025,Botafogo,73,74,Corinthians
+2025,Cruzeiro,89,81,Pato Basquete
+2025,Basquete Cearense,66,71,UNIFACISA
+2025,Basket Osasco,75,77,Rio Claro
+2025,Vasco da Gama,60,67,Mogi
+2025,Minas,75,67,Pato Basquete
+2025,União Corinthians,103,99,Bauru
+2025,Caxias do Sul Basquete,66,93,Franca
+2025,Botafogo,89,80,São José
+2025,Pinheiros,70,64,Brasília
+2025,Flamengo,81,75,Mogi
+2025,Pato Basquete,75,84,Vasco da Gama
+2025,Franca,89,91,Paulistano
+2025,Rio Claro,79,73,Caxias do Sul Basquete
+2025,Brasília,89,64,União Corinthians
+2025,São José,97,82,Basquete Cearense
+2025,Basket Osasco,73,95,Pinheiros
+2025,Pato Basquete,84,53,Flamengo
+2025,Rio Claro,82,77,União Corinthians
+2025,Botafogo,70,69,Mogi
+2025,Bauru,80,77,Cruzeiro
+2025,São José,87,78,UNIFACISA
+2025,Paulistano,86,73,Basket Osasco
+2025,Brasília,84,61,Vasco da Gama
+2025,Corinthians,96,76,Basquete Cearense
+2025,Corinthians,81,75,UNIFACISA
+2025,Mogi,88,76,Basquete Cearense
+2025,Bauru,105,90,Minas
+2025,Caxias do Sul Basquete,62,69,Pinheiros
+2025,União Corinthians,63,74,Paulistano
+2025,Vasco da Gama,72,74,São José
+2025,Mogi,67,61,UNIFACISA
+2025,Pato Basquete,93,67,Botafogo
+2025,Franca,100,82,Minas
+2025,Caxias do Sul Basquete,80,73,Paulistano
+2025,União Corinthians,77,70,Pinheiros
+2025,Flamengo,79,70,São José
+2025,Franca,95,67,Cruzeiro
+2025,Rio Claro,93,87,Flamengo
+2025,Vasco da Gama,70,90,Bauru
+2025,Mogi,69,70,Cruzeiro
+2025,Minas,92,91,Brasília
+2025,Botafogo,66,88,Franca
+2025,Basquete Cearense,64,59,Pato Basquete
+2025,Corinthians,82,75,Mogi
+2025,Minas,98,95,Rio Claro
+2025,Flamengo,91,89,Franca
+2025,Botafogo,81,87,Bauru
+2025,Cruzeiro,87,93,Brasília
+2025,Pinheiros,80,68,Paulistano
+2025,São José,95,103,Corinthians
+2025,União Corinthians,83,79,Basket Osasco
+2025,Flamengo,79,92,Bauru
+2025,Cruzeiro,95,79,Rio Claro
+2025,UNIFACISA,82,67,Pato Basquete
+2025,Vasco da Gama,80,85,Franca
+2025,Paulistano,104,83,Minas
+2025,Caxias do Sul Basquete,83,66,Basket Osasco
+2025,Mogi,78,68,São José
+2025,Rio Claro,82,83,Botafogo
+2025,Bauru,107,70,Basquete Cearense
+2025,Caxias do Sul Basquete,80,90,União Corinthians
+2025,São José,98,81,Basket Osasco
+2025,Mogi,73,80,Pinheiros
+2025,Paulistano,109,102,UNIFACISA
+2025,Rio Claro,77,74,Vasco da Gama
+2025,Brasília,79,73,Botafogo
+2025,Basket Osasco,84,92,Cruzeiro
+2025,Pato Basquete,79,89,Corinthians
+2025,Pinheiros,83,77,Basquete Cearense
+2025,União Corinthians,77,66,Vasco da Gama
+2025,Caxias do Sul Basquete,67,72,Mogi
+2025,UNIFACISA,82,77,Rio Claro
+2025,Paulistano,88,89,Cruzeiro
+2025,Caxias do Sul Basquete,71,69,Vasco da Gama
+2025,Basquete Cearense,49,81,Brasília
+2025,São José,71,96,Bauru
+2025,Botafogo,85,79,Basket Osasco
+2025,Pinheiros,101,79,Cruzeiro
+2025,Basquete Cearense,72,93,Rio Claro
+2025,Pato Basquete,72,80,Mogi
+2025,Corinthians,104,81,Bauru
+2025,Vasco da Gama,88,86,Basket Osasco
+2025,UNIFACISA,64,59,Brasília
+2025,Botafogo,62,93,Pinheiros
+2025,Paulistano,100,87,Rio Claro
+2025,Basket Osasco,90,89,Basquete Cearense
+2025,Cruzeiro,76,85,Caxias do Sul Basquete
+2025,Minas,92,82,União Corinthians
+2025,Pato Basquete,72,81,São José
+2025,Flamengo,80,75,Pinheiros
+2025,Minas,81,75,Caxias do Sul Basquete
+2025,Franca,114,95,UNIFACISA
+2025,Paulistano,91,77,Basquete Cearense
+2025,Cruzeiro,66,67,União Corinthians
+2025,Rio Claro,77,83,Mogi
+2025,Flamengo,101,71,Basket Osasco
+2025,Brasília,89,74,Corinthians
+2025,Vasco da Gama,63,81,Pinheiros
+2025,Bauru,96,84,UNIFACISA
+2025,Caxias do Sul Basquete,67,68,Botafogo
+2025,Franca,116,71,Basquete Cearense
+2025,Basket Osasco,66,78,Minas
+2025,Rio Claro,76,82,São José
+2025,Flamengo,84,79,Paulistano
+2025,Brasília,72,69,Mogi
+2025,União Corinthians,71,78,Botafogo
+2025,Bauru,94,70,Pato Basquete
+2025,Corinthians,93,96,Franca
+2025,Pinheiros,91,85,Minas
+2025,Brasília,89,87,Flamengo
+2025,União Corinthians,96,91,Flamengo
+2025,Minas,101,88,Cruzeiro
+2025,São José,91,93,Franca
+2025,Vasco da Gama,69,96,Paulistano
+2025,Pinheiros,83,81,UNIFACISA
+2025,Mogi,87,79,Bauru
+2025,Caxias do Sul Basquete,76,74,Flamengo
+2025,Pato Basquete,58,67,Brasília
+2025,Rio Claro,73,81,Corinthians
+2025,Basket Osasco,65,101,UNIFACISA
+2025,Botafogo,72,86,Paulistano
+2025,Mogi,75,79,Franca
+2025,Vasco da Gama,88,109,Minas
+2025,Corinthians,74,69,Pinheiros
+2025,Basquete Cearense,94,93,União Corinthians
+2025,Bauru,87,91,Franca
+2025,Basquete Cearense,83,107,Caxias do Sul Basquete
+2025,Pato Basquete,70,78,Rio Claro
+2025,Flamengo,86,93,Minas
+2025,Botafogo,80,70,Cruzeiro
+2025,UNIFACISA,79,68,União Corinthians
+2025,Brasília,90,78,São José
+2025,Corinthians,111,96,Basket Osasco
+2025,Flamengo,90,84,Cruzeiro
+2025,Botafogo,71,106,Minas
+2025,Franca,100,64,Pato Basquete
+2025,UNIFACISA,70,80,Caxias do Sul Basquete
+2025,Corinthians,80,84,Paulistano
+2025,São José,76,75,Pinheiros
+2025,União Corinthians,82,87,Mogi
+2025,Vasco da Gama,72,89,Cruzeiro
+2025,Basket Osasco,77,68,Pato Basquete
+2025,Botafogo,89,102,Flamengo
+2025,Rio Claro,82,92,Franca
+2025,Minas,77,80,UNIFACISA
+2025,Flamengo,95,75,Vasco da Gama
+2025,Minas,87,56,Basquete Cearense
+2025,Cruzeiro,91,101,UNIFACISA
+2025,Brasília,78,83,Franca
+2025,União Corinthians,86,92,Corinthians
+2025,Caxias do Sul Basquete,65,68,São José
+2025,Mogi,84,70,Paulistano
+2025,Rio Claro,95,63,Bauru
+2025,Cruzeiro,86,77,Basquete Cearense
+2025,Pinheiros,88,55,Pato Basquete
+2025,Caxias do Sul Basquete,79,92,Corinthians
+2025,União Corinthians,97,88,São José
+2025,Mogi,73,76,Basket Osasco
+2025,Vasco da Gama,104,86,Botafogo
+2025,Brasília,94,65,Bauru
+2025,Paulistano,92,71,Pato Basquete
+2025,Corinthians,88,78,UNIFACISA
+2025,Pinheiros,95,80,Rio Claro
+2025,Minas,99,94,Cruzeiro
+2025,Paulistano,80,77,Bauru
+2025,Flamengo,102,72,União Corinthians
+2025,Franca,94,68,Botafogo
+2025,São José,70,75,Mogi
+2025,Brasília,73,64,Caxias do Sul Basquete
+2025,UNIFACISA,79,69,Corinthians
+2025,Bauru,80,95,Paulistano
+2025,Cruzeiro,97,81,Minas
+2025,Rio Claro,79,88,Pinheiros
+2025,Caxias do Sul Basquete,70,78,Brasília
+2025,Mogi,79,75,São José
+2025,União Corinthians,84,83,Flamengo
+2025,Botafogo,79,89,Franca
+2025,UNIFACISA,73,76,Corinthians
+2025,Cruzeiro,74,101,Minas
+2025,Rio Claro,88,94,Pinheiros
+2025,Bauru,88,75,Paulistano
+2025,Mogi,81,70,São José
+2025,Caxias do Sul Basquete,66,63,Brasília
+2025,União Corinthians,77,90,Flamengo
+2025,Botafogo,78,82,Franca
+2025,Corinthians,81,71,UNIFACISA
+2025,Minas,103,93,Cruzeiro
+2025,Paulistano,71,62,Bauru
+2025,Flamengo,104,77,União Corinthians
+2025,Brasília,71,70,Caxias do Sul Basquete
+2025,Minas,90,100,Corinthians
+2025,Pinheiros,101,92,Paulistano
+2025,Franca,93,95,Mogi
+2025,Brasília,85,80,Flamengo
+2025,Paulistano,68,76,Pinheiros
+2025,Corinthians,91,97,Minas
+2025,Flamengo,83,66,Brasília
+2025,Mogi,65,97,Franca
+2025,Corinthians,103,97,Minas
+2025,Paulistano,74,84,Pinheiros
+2025,Mogi,70,88,Franca
+2025,Flamengo,90,98,Brasília
+2025,Minas,81,92,Corinthians
+2025,Franca,90,102,Mogi
+2025,Brasília,88,96,Flamengo
+2025,Franca,78,77,Mogi
+2025,Brasília,72,69,Flamengo
+2025,Franca,76,67,Brasília
+2025,Pinheiros,95,65,Corinthians
+2025,Corinthians,98,84,Pinheiros
+2025,Brasília,67,50,Franca
+2025,Corinthians,81,82,Pinheiros
+2025,Brasília,74,91,Franca
+2025,Franca,69,71,Brasília
+2025,Pinheiros,88,76,Corinthians
+2025,Franca,68,66,Brasília
+2025,Franca,82,73,Pinheiros
+2025,Pinheiros,75,78,Franca
+2025,Pinheiros,94,92,Franca
+2025,Franca,85,76,Pinheiros
