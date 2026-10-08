@@ -53,10 +53,11 @@ def test_feature_pipeline():
     })
 
     # Chamando a função feature_pipeline
-    X_train, Y_train, X_test, Y_test = feature_pipeline(df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25)
+    X_train, Y_train, X_test, Y_test, temporada_array = feature_pipeline(df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25)
 
     # Verificando os resultados
     assert isinstance(X_train, pd.DataFrame)
     assert isinstance(Y_train, pd.Series)
     assert isinstance(X_test, pd.DataFrame)
     assert isinstance(Y_test, pd.Series)
+    assert isinstance(temporada_array, np.ndarray)

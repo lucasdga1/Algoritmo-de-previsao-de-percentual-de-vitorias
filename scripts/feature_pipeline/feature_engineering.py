@@ -37,15 +37,19 @@ def prepare_data(df_17, df_18, df_20, df_21, df_22, df_23, df_24):
     return df_modelo
 
 def feature_pipeline(df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25):
+    
     df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25 = load_data()
     df_modelo = prepare_data(df_17, df_18, df_20, df_21, df_22, df_23, df_24)
 
-    X_train = df_modelo.drop(columns=["Team", "W's", "Win %", "Season"])
-    Y_train = df_modelo["Win %"]
-    X_test = df_25.drop(columns=["Team", "W's", "Win %"])
-    Y_test = df_25["Win %"]
+    lista = ["FG%", "3P%", "TS%", "eFG%", "FT%", "Ast/TO", "BPG", "TOV", "SPG", "PPG", "ORtg"]
 
-    return X_train, Y_train, X_test, Y_test
+    X_train = df_modelo[lista]
+    Y_train = df_modelo["Win %"]
+    X_test = df_25[lista]
+    Y_test = df_25["Win %"]
+    temporada_array = df_modelo["Season"].values
+
+    return X_train, Y_train, X_test, Y_test, temporada_array
 
 if __name__ == "__main__":
     feature_pipeline()
