@@ -36,9 +36,18 @@ def prepare_data(df_17, df_18, df_20, df_21, df_22, df_23, df_24):
 
     return df_modelo
 
-def feature_pipeline(df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25):
+def feature_pipeline(df_17=None,
+                    df_18=None,
+                    df_20=None,
+                    df_21=None,
+                    df_22=None,
+                    df_23=None,
+                    df_24=None,
+                    df_25=None):
+    dfs = (df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25)
     
-    df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25 = load_data()
+    if all(df is None for df in dfs):
+        df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25 = load_data()
     df_modelo = prepare_data(df_17, df_18, df_20, df_21, df_22, df_23, df_24)
 
     lista = ["FG%", "3P%", "TS%", "eFG%", "FT%", "Ast/TO", "BPG", "TOV", "SPG", "PPG", "ORtg"]

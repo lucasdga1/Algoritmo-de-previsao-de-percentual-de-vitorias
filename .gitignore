@@ -25,7 +25,8 @@ gcp-key.json
 
 
 # MLflow experiment tracking
-src/training_pipeline/mlruns
+/mlruns
+mlflow.db
 
 # Docker
 *.pid
