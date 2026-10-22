@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import pytest
-from scripts.simulation_pipeline.temporada.temporada import simula_monteCarlo
+from scripts.simulation_pipeline.temporada.monte_carlo import simula_monteCarlo
 
 ROOT = Path.cwd()
 
