@@ -1,9 +1,7 @@
 import streamlit as st
 import base64
 from pathlib import Path
-import pandas as pd
-import plotly.express as px
-import plotly.graph_objects as go
+
 
 
 def set_background(image_path):

@@ -9,9 +9,9 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-ROOT = Path.cwd()
-df_elo = pd.read_csv(ROOT /'historico_nbb' / 'data' / 'historico_elo.csv')
-nbb_26 = pd.read_csv(ROOT /'historico_nbb' / 'data' / 'calendario_26_nbb.csv')
+ROOT = Path(__file__).resolve().parents[3]
+df_elo = pd.read_csv(ROOT / "historico_nbb" / "data" / "historico_elo.csv")
+nbb_26 = pd.read_csv(ROOT / "historico_nbb" / "data" / "calendario_26_nbb.csv")
 elo_26 = df_elo[df_elo['Season'] == 2025].groupby('Time').last().reset_index()[['Time', 'Elo']]
 
 def disputa_direta(casa: str,
