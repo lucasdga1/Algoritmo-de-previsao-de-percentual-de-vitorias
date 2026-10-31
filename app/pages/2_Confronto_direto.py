@@ -5,6 +5,7 @@ import sys
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
@@ -45,7 +46,9 @@ def set_background(image_path):
 
 
 QUADRA = ROOT / "app" / "img" / "quadra_background.png"
+BOLA = ROOT / "app" / "img" / "bola_basquete.png"
 NBB_26 = ROOT / "historico_nbb" / "data" / "calendario_26_nbb.csv"
+HISTORICO = ROOT / "historico_nbb" / "data" / "historico_nbb.csv"
 LOGOS = ROOT / "Logos"
 
 TEAM_LOGOS = {
@@ -131,6 +134,82 @@ if st.button("Simular partida", type="primary"):
         resultado_fora.metric(
             f"Chance de vitória do visitante ({fora})",
             f"{prob_fora:.1%}",
+        )
+        
+        img = Image.open(BOLA)
+        probas = {
+        'Times':[casa, fora],
+        'Porcentagem':[prob_casa, prob_fora]
+        }
+        data_fig = pd.DataFrame(probas)
+
+        fig = px.pie(
+            data_fig,
+            values='Porcentagem',
+            names='Times',
+            hole=.5,
+            color_discrete_map={
+                f"{casa}" : "blue",
+                f"{fora}" : 'orange'
+            }
+        )
+        fig.update_layout(
+            template = 'plotly_dark',
+            paper_bgcolor='rgba(0,0,0,0)',
+            plot_bgcolor='rgba(0,0,0,0)',
+            legend = dict(
+                bgcolor='rgba(0,0,0,0)',
+                font = dict(family = "Segoe UI", size = 12)
+            ),
+            title = dict(
+                text = "<b>Chances de vitória<b>",
+                font=dict(family="Segoe UI", size=20)
+            )
+        )
+        fig.add_layout_image(
+            dict(
+                source = img,
+                xref = "paper",
+                yref = "paper",
+                x = 0.5,
+                y = 0.5,
+                sizex = 0.5,
+                sizey = 0.5,
+                xanchor = "center",
+                yanchor = "middle",
+                layer = "above"
+            )
+        )
+
+        st.plotly_chart(fig, use_container_width=True)
+        st.divider()
+
+        historico = pd.read_csv(HISTORICO)
+        selecao = historico[((historico["Casa"] == casa) & (historico["Visitante"] == fora)) | ((historico["Casa"] == casa) & (historico["Visitante"] == fora))]
+        for team_column, logo_column in (
+            ("Casa", "Logo Casa"),
+            ("Visitante", "Logo Visitante"),
+        ):
+            selecao.insert(
+                selecao.columns.get_loc(team_column),
+                logo_column,
+                selecao[team_column].map(
+                    lambda team: "data:image/png;base64,"
+                    + base64.b64encode(
+                        (LOGOS / TEAM_LOGOS[team]).read_bytes()
+                    ).decode("ascii")
+                ),
+            )
+
+        st.dataframe(
+            selecao,
+            column_config={
+                "Logo Casa": st.column_config.ImageColumn("Logo Casa", width="small"),
+                "Logo Visitante": st.column_config.ImageColumn(
+                    "Logo Visitante", width="small"
+                ),
+            },
+            hide_index=True,
         )
 
 st.divider()
