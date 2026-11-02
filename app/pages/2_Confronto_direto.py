@@ -4,7 +4,6 @@ from pathlib import Path
 import sys
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -184,6 +183,7 @@ if st.button("Simular partida", type="primary"):
         st.plotly_chart(fig, use_container_width=True)
         st.divider()
 
+        st.markdown("### Histórico de confrontos diretos entre as equipes:")
         historico = pd.read_csv(HISTORICO)
         selecao = historico[((historico["Casa"] == casa) & (historico["Visitante"] == fora)) | ((historico["Casa"] == casa) & (historico["Visitante"] == fora))]
         for team_column, logo_column in (

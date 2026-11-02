@@ -11,7 +11,7 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-ROOT = Path.cwd()
+ROOT = Path(__file__).resolve().parents[3]
 df_elo = pd.read_csv(ROOT /'historico_nbb' / 'data' / 'historico_elo.csv')
 nbb_26 = pd.read_csv(ROOT /'historico_nbb' / 'data' / 'calendario_26_nbb.csv')
 elo_26 = df_elo[df_elo['Season'] == 2025].groupby('Time').last().reset_index()[['Time', 'Elo']]
@@ -30,7 +30,8 @@ def simula_temporada():
     ultimo_turno = 0
     ultima_rodada = 0
     elo_dict = dict(zip(elo_26['Time'], elo_26['Elo']))
-    tabela ={time: 0 for time in elo_26['Time']}
+    times_calendario = pd.unique(nbb_26[["Casa", "Visitante"]].to_numpy().ravel())
+    tabela = {time: 0 for time in times_calendario}
     posicoes =[]
     resultados_jogos = []
     
