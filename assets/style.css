@@ -1,0 +1,25 @@
+.titulo {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Segoe UI;
+}
+
+.subtitulo {
+    color: #1E90FF;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Segoe UI;
+}
+
+.paragrafo {
+    color: #00FF85;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: Segoe UI;
+}
+
+div.stButton > button {
+    background-color: #FF0099;
+    color: white;
+}

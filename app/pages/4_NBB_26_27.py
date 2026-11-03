@@ -7,11 +7,13 @@ import plotly.express as px
 import plotly.graph_objects as go
 from PIL import Image
 import sys
-from scripts.simulation_pipeline.temporada.monte_carlo import simula_monteCarlo
 
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+
+from scripts.simulation_pipeline.temporada.monte_carlo import simula_monteCarlo
+from styles.paletas import PALETAS
 
 def set_background(image_path):
     with open(image_path, "rb") as img_file:
@@ -144,7 +146,7 @@ if st.button("Obter previsões", type="primary"):
         distribuicao_vitorias,
         x='Vitórias',
         y='Percentual',
-        color_discrete_sequence=['#1f77b4'],
+        color_discrete_sequence=[PALETAS[time].primaria],
         labels={'Vitórias': 'Número de Vitórias', 'Percentual': 'Percentual (%)'},
     )
     fig.update_layout(
@@ -182,7 +184,7 @@ if st.button("Obter previsões", type="primary"):
         y='Percentual',
         nbins=14,
         labels={'Posição': 'Posição Final', 'Percentual': 'Percentual (%)'},
-        color_discrete_sequence=['#ff7f0e'],   
+        color_discrete_sequence=[PALETAS[time].primaria],
     )
     fig2.update_layout(
     template = 'plotly_dark',
@@ -231,7 +233,7 @@ if st.button("Obter previsões", type="primary"):
         mode="lines",
         line=dict(width=0),
         fill="tonexty",
-        fillcolor="rgba(100, 149, 237, 0.20)",
+        fillcolor=PALETAS[time].terciaria,
         name="Percentis 5–95",
         hoverinfo="skip"
     ))
@@ -249,7 +251,7 @@ if st.button("Obter previsões", type="primary"):
         mode="lines",
         line=dict(width=0),
         fill="tonexty",
-        fillcolor="rgba(100, 149, 237, 0.40)",
+        fillcolor=PALETAS[time].secundaria,
         name="Percentis 25–75",
         hoverinfo="skip"
     ))
@@ -259,7 +261,7 @@ if st.button("Obter previsões", type="primary"):
         x=rodadas,
         y=media,
         mode="lines",
-        line=dict(color="navy", width=3),
+        line=dict(color=PALETAS[time].primaria, width=3),
         name="Média simulada"
     ))
 

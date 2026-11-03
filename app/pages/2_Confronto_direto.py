@@ -10,7 +10,15 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
+from styles.paletas import PALETAS
 from scripts.simulation_pipeline.disputa.disputa import disputa_direta
+
+def carregar_css(caminho):
+    with open(caminho) as f:
+        st.markdown(
+            f"<style>{f.read()}</style>",
+            unsafe_allow_html=True
+        )
 
 def set_background(image_path):
     with open(image_path, "rb") as img_file:
@@ -49,6 +57,9 @@ BOLA = ROOT / "app" / "img" / "bola_basquete.png"
 NBB_26 = ROOT / "historico_nbb" / "data" / "calendario_26_nbb.csv"
 HISTORICO = ROOT / "historico_nbb" / "data" / "historico_nbb.csv"
 LOGOS = ROOT / "Logos"
+CSS = ROOT / "assets" / "style.css"
+
+carregar_css(CSS)
 
 TEAM_LOGOS = {
     "Basket Osasco": "Basket Osasco.png",
@@ -147,9 +158,10 @@ if st.button("Simular partida", type="primary"):
             values='Porcentagem',
             names='Times',
             hole=.5,
+            color = 'Times',
             color_discrete_map={
-                f"{casa}" : "blue",
-                f"{fora}" : 'orange'
+                casa: PALETAS[casa].primaria,
+                fora: PALETAS[fora].primaria,
             }
         )
         fig.update_layout(
