@@ -9,7 +9,7 @@ from pathlib import Path
 import pytest
 import sys
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -40,7 +40,9 @@ def equipes() -> tuple[str, str]:
         
         return casa, fora
 
-def test_disputa():
+def test_disputa(monkeypatch):
+    respostas = iter(times_nbb[:2])
+    monkeypatch.setattr("builtins.input", lambda _: next(respostas))
     casa, fora = equipes()
 
     prob_casa, prob_fora= disputa_direta(casa, fora)

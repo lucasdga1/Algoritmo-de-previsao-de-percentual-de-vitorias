@@ -6,7 +6,7 @@ import pytest
 from pathlib import Path
 import sys
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -55,6 +55,14 @@ def test_feature_pipeline():
         "W's": [22, 32],
         'Win %': [0.62, 0.72]
     })
+
+    feature_columns = [
+        "FG%", "3P%", "TS%", "eFG%", "FT%", "Ast/TO",
+        "BPG", "TOV", "SPG", "PPG", "ORtg",
+    ]
+    for df in (df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25):
+        for column in feature_columns:
+            df[column] = 0.5
 
     # Chamando a função feature_pipeline
     X_train, Y_train, X_test, Y_test, temporada_array = feature_pipeline(df_17, df_18, df_20, df_21, df_22, df_23, df_24, df_25)

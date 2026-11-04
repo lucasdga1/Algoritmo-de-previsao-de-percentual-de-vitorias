@@ -7,14 +7,14 @@ from pathlib import Path
 import pandas as pd
 import json
 
-from scripts.inference_pipeline.inference import predict
-
 # ======================================================
 # Adicionando a raiz do projeto ao caminho do sistema
 # ======================================================
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
+
+from scripts.inference_pipeline.inference import predict
 
 def sample_df() -> pd.DataFrame:
     """Pede os valores das features e monta a linha que será prevista."""
@@ -37,7 +37,8 @@ def sample_df() -> pd.DataFrame:
     return pd.DataFrame([valores], columns=train_cols)
 
 
-def test_inference():
+def test_inference(monkeypatch):
+    monkeypatch.setattr("builtins.input", lambda _: "0")
     dados = sample_df()
     percentual, total_vitorias = predict(dados)
 

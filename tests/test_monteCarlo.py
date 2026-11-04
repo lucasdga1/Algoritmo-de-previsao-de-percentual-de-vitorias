@@ -9,7 +9,7 @@ from pathlib import Path
 import pytest
 import sys
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
@@ -29,7 +29,8 @@ def time_alvo()->str:
             continue
         return time
 
-def teste_monteCarlo():
+def teste_monteCarlo(monkeypatch):
+    monkeypatch.setattr("builtins.input", lambda _: str(times_nbb[0]))
     equipe = time_alvo()
     posicoes, vitorias = simula_monteCarlo(equipe)
 
