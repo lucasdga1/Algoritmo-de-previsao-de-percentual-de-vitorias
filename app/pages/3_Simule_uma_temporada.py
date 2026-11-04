@@ -38,6 +38,14 @@ def set_background(image_path):
             backdrop-filter: blur(5px);
         }}
 
+        [data-testid="stMarkdownContainer"]:has(> p, > h1, > h2, > h3, > h4, > h5, > h6, > ol, > ul, > blockquote) {{
+            background: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+        }}
+
         </style>
         """,
         unsafe_allow_html=True
@@ -123,7 +131,10 @@ if st.button("Simular Temporada", type="primary"):
             logo_column,
             jogos[team_column].map(logo_data_uris),
         )
-    st.dataframe(jogos,
+    st.dataframe(jogos.style.set_properties(
+                    subset=["Resultado"],
+                    **{"font-weight": "bold"},
+                ),
                 column_config={
                     "Logo Casa": st.column_config.ImageColumn("Logo Casa", width="small"),
                     "Logo Visitante": st.column_config.ImageColumn(

@@ -40,6 +40,14 @@ def set_background(image_path):
             backdrop-filter: blur(5px);
         }}
 
+        [data-testid="stMarkdownContainer"]:has(> p, > h1, > h2, > h3, > h4, > h5, > h6, > ol, > ul, > blockquote) {{
+            background: rgba(0, 0, 0, 0.65);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            padding: 0.75rem 1rem;
+            border-radius: 0.5rem;
+        }}
+
         </style>
         """,
         unsafe_allow_html=True
