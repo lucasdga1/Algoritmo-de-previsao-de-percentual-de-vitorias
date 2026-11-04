@@ -4,7 +4,11 @@ import pandas as pd
 import numpy as np
 import pytest
 from pathlib import Path
+import sys
 
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
 
 from scripts.feature_pipeline.feature_engineering import feature_pipeline
 

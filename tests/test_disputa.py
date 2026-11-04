@@ -7,9 +7,14 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import pytest
+import sys
+
+ROOT = Path(__file__).resolve().parents[2]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
 from scripts.simulation_pipeline.disputa.disputa import disputa_direta
 
-ROOT = Path.cwd()
 
 nbb_26 = pd.read_csv(ROOT /'historico_nbb' / 'data' / 'calendario_26_nbb.csv')
 times_nbb = nbb_26['Casa'].unique()
