@@ -2,8 +2,8 @@
 
 > Projeto de ciência de dados aplicado ao basquete: análise de temporadas da NBB, previsão de percentual de vitórias e simulações de partidas e campeonatos.
 
-🏀 **[Acessar o aplicativo no Streamlit](INSERIR_LINK_DO_STREAMLIT_AQUI)**<br>
-*O link será atualizado assim que o app estiver publicado.*
+🏀 **[Acessar o aplicativo no Streamlit](https://previsoesnbb.streamlit.app/)**<br>
+
 
 ### O que você encontra no app
 
