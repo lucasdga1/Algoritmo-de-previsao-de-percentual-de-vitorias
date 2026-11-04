@@ -37,6 +37,6 @@ jobs:
             # Teste streamlit
             - name: Test Streamlit app
               run: |
-                streamlit run app.py --server.headless true &
+                streamlit run app\home.py --server.headless true &
                 sleep 10
                 pkill -f streamlit
