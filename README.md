@@ -1,5 +1,60 @@
 # Algoritmo de previsão de percentual de vitórias
 
+> Projeto de ciência de dados aplicado ao basquete: análise de temporadas da NBB, previsão de percentual de vitórias e simulações de partidas e campeonatos.
+
+🏀 **[Acessar o aplicativo no Streamlit](INSERIR_LINK_DO_STREAMLIT_AQUI)**<br>
+*O link será atualizado assim que o app estiver publicado.*
+
+### O que você encontra no app
+
+* **📈 Preveja seu desempenho:** informe estatísticas de uma equipe e veja a estimativa de percentual e total de vitórias, além da comparação com a classificação da NBB.
+* **🥊 Confronto direto:** compare as probabilidades de vitória dos times mandante e visitante, com vantagem de mando, paleta de cores das equipes e histórico de partidas.
+* **⛹️ Simule uma temporada:** simule os jogos da temporada regular e consulte os resultados e a classificação final.
+* **🏆 NBB 26/27:** explore 10.000 simulações e as probabilidades de vitórias, posições na tabela, título, Top 4 e playoffs ao longo da temporada.
+* **ℹ️ Sobre:** consulte a metodologia, as fontes de dados e os termos de uso.
+
+### Estrutura do projeto
+
+```text
+.
+├── app/                         # Aplicativo Streamlit e suas páginas
+│   ├── home.py                  # Página inicial
+│   ├── pages/                   # Previsão, confronto, simulações e informações
+│   └── img/                     # Imagens e elementos visuais do app
+├── .streamlit/                  # Configurações do aplicativo
+├── Classificacao_NBB/           # Classificações e estatísticas por temporada
+├── Df_Partidas/                 # Dataframes dos confrontos analisados
+├── Graficos_analise/            # Gráficos das análises entre equipes e partidas
+├── Graficos_modelo/             # Gráficos das análises e avaliação dos modelos
+├── historico_nbb/
+│   ├── data/                    # Calendário, resultados e histórico de ratings Elo
+│   └── historico_seasons/       # Dados históricos organizados por temporada
+├── Logos/                       # Logos das equipes usados nas visualizações
+├── models/                      # Modelo treinado utilizado nas previsões
+├── mlruns/                      # Registros locais dos experimentos de treinamento
+├── notebooks/                   # Exploração, preparação de dados e análises
+├── PNGs/                        # Imagens de arremessos usadas nos shot charts
+├── scripts/
+│   ├── feature_pipeline/        # Preparação e engenharia de atributos
+│   ├── inference_pipeline/      # Inferência com o modelo salvo
+│   ├── simulation_pipeline/     # Simulações de partidas e temporadas
+│   └── training_pipeline/       # Treinamento e ajuste de hiperparâmetros
+├── Shot_Charts/                 # Coordenadas processadas dos arremessos
+├── styles/                      # Paletas de cores utilizadas no app
+├── tests/                       # Testes de processamento, inferência e simulação
+├── features.json                # Atributos esperados pelo modelo
+└── requirements.txt             # Dependências do projeto
+```
+
+### Evolução desde a última atualização
+
+* Organização do código em pipelines de preparação de dados, treinamento, inferência e simulação.
+* Inclusão de ratings Elo calculados a partir do histórico da NBB para estimar resultados e probabilidades de confrontos.
+* Implementação de simulação de partidas, temporada regular e simulações de Monte Carlo, incluindo o caminho de vitórias por rodada.
+* Criação do aplicativo Streamlit com previsões personalizadas, confrontos diretos, simulação de temporada, projeções para a NBB 26/27 e página informativa.
+* Inclusão de visualizações interativas, logos e paletas de cores associadas às equipes, além de testes automatizados para as funcionalidades principais.
+* Remoção dos pacotes compactados de HTML do repositório; os dados tratados e notebooks do projeto continuam organizados nas pastas indicadas abaixo.
+
 # Objetivo
 * O objetivo principal deste projeto é desenvolver um algoritmo de machine learning capaz de prever a quantidade percentual de vitórias esperadas de uma equipe de basquete, ao final de uma temporada, de acordo com as estatísticas fornecidas ao modelo.
 * Neste projeto também foi feita uma análise do desempenho da equipe de basquete profissional do Brasília na temporada 2025/2026 em comparação com a temporada 2024/2025.
@@ -8,28 +63,26 @@
 
 # Dataset
 ## Resultados das temporadas e partidas
-* O dataset foi retirado a partir de um scrape das tabelas salvas em html no site: https://basketball.realgm.com
-* Os HTMLs podem ser encontrados nas seguintes pastas do projeto: 
-* <a href="https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/blob/main/HTML_Classificacao.zip">HTML_Classificação parte 1</a>
-* <a href="https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/blob/main/HTML_Classificacao_2.zip">HTML_Classificação parte 2</a>
-* <a href="https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/blob/main/HTML_Classificacao_3.zip">HTML_Classificação parte 3</a> 
-* <a href="https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/blob/main/HTML_Partidas.zip">HTML_Partidas</a>
+* Os dados das temporadas e partidas foram coletados a partir de tabelas do site [RealGM](https://basketball.realgm.com) e processados para as análises.
+* Os pacotes compactados com os HTMLs originais não fazem mais parte do repositório. Os dataframes tratados podem ser acessados em [Classificacao_NBB](https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/tree/main/Classificacao_NBB) e [Df_Partidas](https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/tree/main/Df_Partidas).
+* Os notebooks de coleta e processamento estão na pasta [notebooks](https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/tree/main/notebooks).
 
 ## Shot charts utilizados
-* Os Shot charts foram obtidos de capturas de tela do site oficial da NBB: https://lnb.com.br/
-* Os PNGs podem ser encontrados na seguinte pasta do projeto: 
-* <a href="https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/tree/main/PNGs">PNGs</a>
+* Os shot charts foram obtidos de capturas de tela do site oficial da [NBB](https://lnb.com.br/).
+* As imagens utilizadas podem ser encontradas na pasta [PNGs](https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/tree/main/PNGs).
 
 # Tecnologias Utilizadas
 * Python: Linguagem de programação utilizada para análise de dados e machine learning.
 * Pandas: Biblioteca para manipulação e análise de dados.
 * NumPy: Biblioteca para operações numéricas.
 * Matplotlib e Seaborn: Bibliotecas para visualização de dados.
-* Plotly: Biblioteca para visualização de dados.
+* Plotly e Streamlit: Bibliotecas utilizadas nas visualizações interativas e no aplicativo web.
 * Scikit-learn: Biblioteca para machine learning, utilizada para aplicação dos algoritmos.
 * Beautiful Soup: Biblioteca para parser de HTML.
 * MplBasketball: Biblioteca para criação de shot charts (visualização de arremessos na quadra).
 * OpenCV: Biblioteca para processamento de imagens.
+* Optuna e MLflow: Bibliotecas utilizadas no ajuste de hiperparâmetros e no acompanhamento dos experimentos.
+* Joblib: Biblioteca utilizada para salvar e carregar o modelo treinado.
 
 
 # Metodologia
@@ -90,6 +143,7 @@
 3. Os dataframes foram separados em 2, sendo que o teste seria somente a temporada 2025/2026 para que o modelo pudesse prever num ambiente mais próximo do real, e o dataframe de treino foi uma concatenação das outras temporadas.
 4. Os modelos foram treinados com o uso de um pipeline, para maior consistência, de PCA, para redução e equalização de dimensionalidade, de scaler, para normalização das variáveis, e de random search, para definição dos melhores hiperparâmetros.
 5. Também foi feito um treinamento de Stacking para tentar alcançar uma performance melhor.
+6. O modelo selecionado e salvo em `models/en_best_model.pkl` é utilizado pelo pipeline de inferência e pelo app para gerar previsões a partir das estatísticas informadas.
 
 ## Avaliação
 1. A avaliação dos modelos no treinamento e sua escolha foram baseadas nos scores de erro quadrático médio (mse) e no desvio padrão das previsões.
@@ -249,21 +303,37 @@ Impacto percentual no modelo considerando a variação isolada de cada uma dessa
 
 
 # Como Executar
-* Clone o repositório.
-* Os códigos foram feitos na versão 3.12 do Python para compatibilidade com a biblioteca MplBasketball.
-* Instale as dependências listadas no `requirements.txt`.
-* Execute o script 'Scrape_Classificação.ipynb' para transformar HTML de temporadas em dataframe.
-* Execute o script 'Scrape_Partidas.ipynb' para transformar HTML de partidas em dataframe.
-* Execute o script 'Shot_import.ipynb' para transformar os PNGs em dataframes.
-* Execute o script 'Analise_Brasilia.ipynb' para analisar performances.
-* Execute o script 'Modelo_vitorias.ipynb' para executar o modelo de machine learning.
+1. Clone o repositório e acesse a pasta do projeto.
+2. Os códigos foram desenvolvidos para Python 3.12, inclusive por compatibilidade com a biblioteca MplBasketball.
+3. Crie e ative um ambiente virtual e instale as dependências:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+```
+
+4. Inicie o aplicativo Streamlit:
+
+```powershell
+streamlit run app/home.py
+```
+
+5. Para executar os testes automatizados, instale o `pytest` (caso ainda não esteja disponível) e rode:
+
+```powershell
+python -m pip install pytest
+python -m pytest -q
+```
+
+Os notebooks de coleta, preparação e análise estão em `notebooks/`: `Scrape_Classificacao.ipynb`, `Scrape_Partidas.ipynb`, `Shot_Import.ipynb`, `Analise_Brasilia.ipynb` e `Modelo_vitorias.ipynb`, entre outros. Os pacotes compactados com os HTMLs de origem foram removidos; os CSVs já processados permanecem nas pastas indicadas neste README.
 
 
 # Contribuições
-* Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+* Contribuições são bem-vindas! Sinta-se à vontade para abrir uma [issue](https://github.com/lucasdga1/Algoritmo-de-previsao-de-percentual-de-vitorias/issues) ou enviar um pull request.
 
 # Autoria
 Lucas Danziger Guimarães de Andrade
 
 # Contato
-<a href="mailto:lucas.dga1@gmail.com">Me envie um email<a/>
+[✉️ Me envie um e-mail](mailto:lucas.dga1@gmail.com)
