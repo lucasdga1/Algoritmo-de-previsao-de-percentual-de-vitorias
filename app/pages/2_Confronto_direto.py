@@ -214,8 +214,20 @@ if st.button("Simular partida", type="primary"):
                 ),
             )
 
+        def negritar_resultado(linha):
+            coluna_vencedora = None
+            if linha["Placar_casa"] > linha["Placar_visitante"]:
+                coluna_vencedora = "Casa"
+            elif linha["Placar_casa"] < linha["Placar_visitante"]:
+                coluna_vencedora = "Visitante"
+
+            return [
+                "font-weight: bold" if coluna == coluna_vencedora else ""
+                for coluna in linha.index
+            ]
+
         st.dataframe(
-            selecao,
+            selecao.style.apply(negritar_resultado, axis=1),
             column_config={
                 "Logo Casa": st.column_config.ImageColumn("Logo Casa", width="small"),
                 "Logo Visitante": st.column_config.ImageColumn(
