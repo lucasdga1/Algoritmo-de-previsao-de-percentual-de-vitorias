@@ -127,7 +127,7 @@ if st.button("Obter previsões", type="primary"):
 
     time_campeao = np.sum(posicoes == 1) / len(posicoes)
     time_top4 = np.sum(posicoes <= 4) / len(posicoes)
-    time_playoffs = np.sum(posicoes <= 8) / len(posicoes)
+    time_playoffs = np.sum(posicoes <= 16) / len(posicoes)
     
     st.markdown(f"""
             ### Resultados das simulações para a equipe {time}:
@@ -136,7 +136,7 @@ if st.button("Obter previsões", type="primary"):
 
             Probabilidade do {time} ficar entre os 4 primeiros: {time_top4:.2%}
 
-            Probabilidade do {time} ficar entre os 8 primeiros (playoffs): {time_playoffs:.2%}
+            Probabilidade do {time} ficar entre os 16 primeiros (playoffs): {time_playoffs:.2%}
 """)
 
     st.divider()
