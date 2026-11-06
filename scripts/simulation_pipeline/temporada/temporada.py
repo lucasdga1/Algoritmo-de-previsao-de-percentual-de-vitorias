@@ -23,6 +23,32 @@ turno_2 = nbb_26.rename(columns={"Casa": "Visitante", "Visitante": "Casa"})
 turno_2 = turno_2[nbb_26.columns]
 temporada = pd.concat([nbb_26, turno_2], ignore_index=True)
 
+# ====================================================================================
+# Simulando a série mélhor de 5 da NBB
+# ====================================================================================
+class Series:
+    def __init__(self, time_a, time_b, melhor_de=5):
+        self.time_a = time_a
+        self.time_b = time_b
+        self.vitorias_a = 0
+        self.vitorias_b = 0
+        self.target = melhor_de // 2 + 1
+
+    def add_vitorias(self, time):
+        if time == self.time_a:
+            self.vitorias_a += 1
+        elif time == self.time_b:
+            self.vitorias_b += 1
+
+    def vencedor(self):
+        if self.vitorias_a >= self.target:
+            return self.time_a
+        elif self.vitorias_b >= self.target:
+            return self.time_b
+        else:
+            return None
+
+
 def simula_temporada():
     # ====================================================================================
     # Simulando uma temporada da NBB 2026 com base no histórico de elo
@@ -77,10 +103,300 @@ def simula_temporada():
             "Vitórias": vitorias,
         })
 
+    rodadas_resultados = pd.DataFrame(resultados_jogos)
     final_nbb = pd.DataFrame(posicoes, columns=["Time", "Posição", "Vitórias"])
 
-    return resultados_jogos, final_nbb
+    return rodadas_resultados, final_nbb
 
+
+def playoffs_8va(df: pd.DataFrame):
+    # ====================================================================================
+    # Simula a primeira rodada dos playoffs com base no histórico de Elo
+    # ====================================================================================
+    elo_dict = dict(zip(elo_26["Time"], elo_26["Elo"]))
+    posicoes = dict(zip(df["Time"], df["Posição"]))
+    playoff_times = (
+        df.loc[df["Posição"] <= 16]
+        .sort_values("Posição")["Time"]
+        .tolist()
+    )
+
+    playoff_resultados = []
+    playoff_class_4as = []
+    rodada = 1
+
+    while len(playoff_times) > 8:
+        if len(playoff_times) % 2 != 0:
+            raise ValueError("O número de times na rodada precisa ser par.")
+
+        vencedores_rodada = []
+        metade = len(playoff_times) // 2
+
+        for i in range(metade):
+            casa = playoff_times[i]
+            fora = playoff_times[-(i + 1)]
+
+            elo_casa = elo_dict[casa]
+            elo_fora = elo_dict[fora]
+            vantagem_casa = (elo_casa + 60) - elo_fora
+            vantagem_fora = (elo_fora + 60) - elo_casa
+            prob_ida = 1 / (1 + 10 ** (-vantagem_casa / 400))
+            prob_volta = 1 / (1 + 10 ** (-vantagem_fora / 400))
+
+            serie = Series(casa, fora, melhor_de=5)
+            jogo = 0
+
+            while jogo < 5 and serie.vencedor() is None:
+                # prob_ida: chance de vitória de casa quando tem mando.
+                # prob_volta: chance de vitória de casa quando fora tem mando.
+                prob_casa = prob_ida if jogo in (0, 1, 4) else prob_volta
+                vencedor_partida = np.random.choice(
+                        [casa, fora],
+                        p=[prob_casa, 1 - prob_casa],
+                    )
+                serie.add_vitorias(vencedor_partida)
+                jogo += 1   
+
+                playoff_resultados.append({
+                    "Rodada": rodada,
+                    "Jogo da série": jogo,
+                    "Casa": casa,
+                    "Visitante": fora,
+                    "Vencedor": vencedor_partida,
+                    "Vitórias Casa": serie.vitorias_a,
+                    "Vitórias Visitante": serie.vitorias_b,
+                })
+
+            vencedor_serie = serie.vencedor()
+            vencedores_rodada.append(vencedor_serie)
+            playoff_class_4as.append({
+                "Time": vencedor_serie,
+                "Posição": posicoes[vencedor_serie],
+            })
+
+        playoff_times = vencedores_rodada
+        rodada += 1
+
+    df_result_8va = pd.DataFrame(playoff_resultados)
+    df_times_4as = pd.DataFrame(playoff_class_4as)
+    df_times_4as = df_times_4as.sort_values("Posição").reset_index(drop=True)
+
+    return df_result_8va, df_times_4as
+
+
+def playoffs_4as(df: pd.DataFrame):
+    # ====================================================================================
+    # Simula a segunda rodada dos playoffs com base no histórico de Elo
+    # ====================================================================================
+    elo_dict = dict(zip(elo_26["Time"], elo_26["Elo"]))
+    posicoes = dict(zip(df["Time"], df["Posição"]))
+    playoff_times = (df.sort_values("Posição")["Time"].tolist())
+    playoff_resultados_4as = []
+    playoff_class_semi = []
+    rodada = 1
+
+    while len(playoff_times) > 4:
+        if len(playoff_times) % 2 != 0:
+            raise ValueError("O número de times na rodada precisa ser par.")
+
+        vencedores_rodada = []
+        metade = len(playoff_times) // 2
+
+        for i in range(metade):
+            casa = playoff_times[i]
+            fora = playoff_times[-(i + 1)]
+
+            elo_casa = elo_dict[casa]
+            elo_fora = elo_dict[fora]
+            vantagem_casa = (elo_casa + 60) - elo_fora
+            vantagem_fora = (elo_fora + 60) - elo_casa
+            prob_ida = 1 / (1 + 10 ** (-vantagem_casa / 400))
+            prob_volta = 1 / (1 + 10 ** (-vantagem_fora / 400))
+
+            serie = Series(casa, fora, melhor_de=5)
+            jogo = 0
+
+            while jogo < 5 and serie.vencedor() is None:
+                # prob_ida: chance de vitória de casa quando tem mando.
+                # prob_volta: chance de vitória de casa quando fora tem mando.
+                prob_casa = prob_ida if jogo in (0, 1, 4) else prob_volta
+                vencedor_partida = np.random.choice(
+                        [casa, fora],
+                        p=[prob_casa, 1 - prob_casa],
+                    )
+                serie.add_vitorias(vencedor_partida)
+                jogo += 1   
+
+                playoff_resultados_4as.append({
+                    "Rodada": rodada,
+                    "Jogo da série": jogo,
+                    "Casa": casa,
+                    "Visitante": fora,
+                    "Vencedor": vencedor_partida,
+                    "Vitórias Casa": serie.vitorias_a,
+                    "Vitórias Visitante": serie.vitorias_b,
+                })
+
+            vencedor_serie = serie.vencedor()
+            vencedores_rodada.append(vencedor_serie)
+            playoff_class_semi.append({
+                "Time": vencedor_serie,
+                "Posição": posicoes[vencedor_serie],
+            })
+
+        playoff_times = vencedores_rodada
+        rodada += 1
+
+    playoff_resultados_4as_df = pd.DataFrame(playoff_resultados_4as)
+    playoff_class_semi_df = pd.DataFrame(playoff_class_semi)
+
+    playoff_class_semi_df = playoff_class_semi_df.sort_values("Posição").reset_index(drop=True)
+
+    return playoff_resultados_4as_df, playoff_class_semi_df
+
+
+def playoffs_semi(df: pd.DataFrame):
+    # ====================================================================================
+    # Simula a semi-final dos playoffs com base no histórico de Elo
+    # ====================================================================================
+    elo_dict = dict(zip(elo_26["Time"], elo_26["Elo"]))
+    posicoes = dict(zip(df["Time"], df["Posição"]))
+    playoff_times = (df.sort_values("Posição")["Time"].tolist())
+    playoff_resultados_semi = []
+    playoff_class_final = []
+    rodada = 1
+
+    while len(playoff_times) > 2:
+        if len(playoff_times) % 2 != 0:
+            raise ValueError("O número de times na rodada precisa ser par.")
+
+        vencedores_rodada = []
+        metade = len(playoff_times) // 2
+
+        for i in range(metade):
+            casa = playoff_times[i]
+            fora = playoff_times[-(i + 1)]
+
+            elo_casa = elo_dict[casa]
+            elo_fora = elo_dict[fora]
+            vantagem_casa = (elo_casa + 60) - elo_fora
+            vantagem_fora = (elo_fora + 60) - elo_casa
+            prob_ida = 1 / (1 + 10 ** (-vantagem_casa / 400))
+            prob_volta = 1 / (1 + 10 ** (-vantagem_fora / 400))
+
+            serie = Series(casa, fora, melhor_de=5)
+            jogo = 0
+
+            while jogo < 5 and serie.vencedor() is None:
+                # prob_ida: chance de vitória de casa quando tem mando.
+                # prob_volta: chance de vitória de casa quando fora tem mando.
+                prob_casa = prob_ida if jogo in (0, 1, 4) else prob_volta
+                vencedor_partida = np.random.choice(
+                        [casa, fora],
+                        p=[prob_casa, 1 - prob_casa],
+                    )
+                serie.add_vitorias(vencedor_partida)
+                jogo += 1   
+
+                playoff_resultados_semi.append({
+                    "Rodada": rodada,
+                    "Jogo da série": jogo,
+                    "Casa": casa,
+                    "Visitante": fora,
+                    "Vencedor": vencedor_partida,
+                    "Vitórias Casa": serie.vitorias_a,
+                    "Vitórias Visitante": serie.vitorias_b,
+                })
+
+            vencedor_serie = serie.vencedor()
+            vencedores_rodada.append(vencedor_serie)
+            playoff_class_final.append({
+                "Time": vencedor_serie,
+                "Posição": posicoes[vencedor_serie],
+            })
+
+        playoff_times = vencedores_rodada
+        rodada += 1
+
+    playoff_resultados_semi_df = pd.DataFrame(playoff_resultados_semi)
+    playoff_class_final_df = pd.DataFrame(playoff_class_final)
+
+    playoff_class_final_df = playoff_class_final_df.sort_values("Posição").reset_index(drop=True)
+    
+    return playoff_resultados_semi_df, playoff_class_final_df
+
+
+def playoffs_finais(df: pd.DataFrame):
+    # ====================================================================================
+    # Simula a final dos playoffs com base no histórico de Elo
+    # ====================================================================================
+    elo_dict = dict(zip(elo_26["Time"], elo_26["Elo"]))
+    posicoes = dict(zip(df["Time"], df["Posição"]))
+    playoff_times = (df.sort_values("Posição")["Time"].tolist())
+    playoff_resultados_final = []
+    playoff_campeao = []
+    rodada = 1
+
+    while len(playoff_times) > 1:
+        if len(playoff_times) % 2 != 0:
+            raise ValueError("O número de times na rodada precisa ser par.")
+
+        vencedores_rodada = []
+        metade = len(playoff_times) // 2
+
+        for i in range(metade):
+            casa = playoff_times[i]
+            fora = playoff_times[-(i + 1)]
+
+            elo_casa = elo_dict[casa]
+            elo_fora = elo_dict[fora]
+            vantagem_casa = (elo_casa + 60) - elo_fora
+            vantagem_fora = (elo_fora + 60) - elo_casa
+            prob_ida = 1 / (1 + 10 ** (-vantagem_casa / 400))
+            prob_volta = 1 / (1 + 10 ** (-vantagem_fora / 400))
+
+            serie = Series(casa, fora, melhor_de=5)
+            jogo = 0
+
+            while jogo < 5 and serie.vencedor() is None:
+                # prob_ida: chance de vitória de casa quando tem mando.
+                # prob_volta: chance de vitória de casa quando fora tem mando.
+                prob_casa = prob_ida if jogo in (0, 1, 4) else prob_volta
+                vencedor_partida = np.random.choice(
+                        [casa, fora],
+                        p=[prob_casa, 1 - prob_casa],
+                    )
+                serie.add_vitorias(vencedor_partida)
+                jogo += 1   
+
+                playoff_resultados_final.append({
+                    "Rodada": rodada,
+                    "Jogo da série": jogo,
+                    "Casa": casa,
+                    "Visitante": fora,
+                    "Vencedor": vencedor_partida,
+                    "Vitórias Casa": serie.vitorias_a,
+                    "Vitórias Visitante": serie.vitorias_b,
+                })
+
+            vencedor_serie = serie.vencedor()
+            vencedores_rodada.append(vencedor_serie)
+            playoff_campeao.append({
+                "Time": vencedor_serie,
+                "Posição": posicoes[vencedor_serie],
+            })
+
+        playoff_times = vencedores_rodada
+        rodada += 1
+
+    playoff_resultados_final_df = pd.DataFrame(playoff_resultados_final)
+    playoff_campeao_df = pd.DataFrame(playoff_campeao)
+    return playoff_resultados_final_df, playoff_campeao_df
 
 if __name__=="__main__":
-    simula_temporada()
+    rodadas_resultados, final_nbb  = simula_temporada()
+    df_result_8va, df_times_4as = playoffs_8va(final_nbb)
+    playoff_resultados_4as_df, playoff_class_semi_df = playoffs_4as(df_times_4as)
+    playoff_resultados_semi_df, playoff_class_final_df = playoffs_semi(playoff_class_semi_df)
+    playoff_resultados_final_df, playoff_campeao_df = playoffs_finais(playoff_class_final_df)
+
