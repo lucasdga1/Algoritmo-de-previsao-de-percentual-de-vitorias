@@ -29,7 +29,7 @@ def simula_monteCarlo(equipe: str) -> tuple[np.ndarray, np.ndarray]:
     historico_posicoes = []
     historico_vitorias = []
 
-    for simulacao in range(10000):  # Simulando 100 temporadas
+    for simulacao in range(10000):  # Simulando 10000 temporadas
         tabela = {time: 0 for time in elo_26['Time']}  # Inicializando a tabela de vitórias
         caminho_vitorias = []
 

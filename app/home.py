@@ -94,11 +94,19 @@ st.markdown("""
 Faça a simulação da temporada regular 26/27 da NBB e veja os resultados dos jogos e a classificação final""")
 st.divider()
 st.page_link(
-    "pages/4_NBB_26_27.py",
-    label="🏆 NBB 26/27:",
+    "pages/4_Seu_time_no_NBB_26_27.py",
+    label="🏆 Seu time no NBB 26/27:",
 )
 st.markdown("""
 Escolha uma equipe e veja quais as probabilidades de vitórias e clasificações ao longo da temporada baseado em um algorítmo de 10.000 simulações. 
+""")
+st.divider()
+st.page_link(
+    "pages/5_Previsoes_NBB_26_27.py",
+    label="🏆 NBB 26/27:",
+)
+st.markdown("""
+Veja as previsões para a temporada 26/27 da NBB baseado em um algorítmo de 10.000 simulações. 
 """)
 
 st.divider()
