@@ -6,11 +6,13 @@ import sys
 import pandas as pd
 import plotly.express as px
 from PIL import Image
-from scripts.simulation_pipeline.temporada.temporada import simula_temporada
+from scripts.simulation_pipeline.temporada.temporada import simula_temporada, playoffs_8va, playoffs_4as, playoffs_semi, playoffs_finais
 
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
+
+from styles.paletas import PALETAS
 
 def set_background(image_path):
     with open(image_path, "rb") as img_file:
@@ -111,6 +113,7 @@ if st.button("Simular Temporada", type="primary"):
     st.markdown("### Resultados dos jogos da temporada:")
 
     jogos = pd.DataFrame(result_jogos)
+    jogos['Probabilidade de vitória da casa'] = (jogos['Probabilidade de vitória da casa'] * 100).map('{:.2f}'.format)
     logo_data_uris = {}
     for team in times:
         with Image.open(LOGOS / TEAM_LOGOS[team]) as logo:
@@ -163,10 +166,186 @@ if st.button("Simular Temporada", type="primary"):
                 use_container_width=True,
                 hide_index=True)
 
+    vitorias_por_rodada = (
+        jogos.assign(Vitoria=1)
+        .pivot_table(
+            index="Rodada",
+            columns="Resultado",
+            values="Vitoria",
+            aggfunc="sum",
+            fill_value=0,
+        )
+        .reindex(
+            index=range(1, int(jogos["Rodada"].max()) + 1),
+            columns=times,
+            fill_value=0,
+        )
+        .sort_index()
+        .cumsum()
+    )
+    rodada_vitorias = (
+        vitorias_por_rodada.rename_axis(columns="Time")
+        .reset_index()
+        .melt(id_vars="Rodada", var_name="Time", value_name="Vitorias")
+    )
 
+    fig = px.line(
+        rodada_vitorias,
+        x='Rodada',
+        y='Vitorias',
+        color='Time',
+        color_discrete_map={
+            time: PALETAS[time].primaria for time in rodada_vitorias["Time"].unique()
+        },
+    )
+    fig.update_layout(
+        template="plotly_dark",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        legend=dict(
+            bgcolor="rgba(0,0,0,0)",
+            font=dict(family="Segoe UI", size=12),
+        ),
+        title=dict(
+            text="<b>Vitórias acumuladas por rodada</b>",
+            font=dict(family="Segoe UI", size=20),
+        ),
+        xaxis_title="Rodada",
+        yaxis_title="Vitórias acumuladas",
+        hovermode="x unified",
+    )
+    st.plotly_chart(fig, use_container_width=True)
+    st.divider()
 
+    def exibir_fase_playoff(
+        nome_fase, resultados_fase, classificados, titulo_classificados
+    ):
+        st.markdown(f"### {nome_fase}")
 
+        resultados_com_logos = resultados_fase.copy()
+        for team_column, logo_column in (
+            ("Casa", "Logo Casa"),
+            ("Visitante", "Logo Visitante"),
+        ):
+            resultados_com_logos.insert(
+                resultados_com_logos.columns.get_loc(team_column),
+                logo_column,
+                resultados_com_logos[team_column].map(logo_data_uris),
+            )
 
+        st.dataframe(
+            resultados_com_logos.style.set_properties(
+                subset=["Vencedor"],
+                **{"font-weight": "bold"},
+            ),
+            column_config={
+                "Logo Casa": st.column_config.ImageColumn("Logo Casa", width="small"),
+                "Logo Visitante": st.column_config.ImageColumn(
+                    "Logo Visitante", width="small"
+                ),
+            },
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        classificados_com_logos = classificados.copy()
+        classificados_com_logos.insert(
+            classificados_com_logos.columns.get_loc("Time"),
+            "Logo",
+            classificados_com_logos["Time"].map(logo_data_uris),
+        )
+        st.markdown(f"**{titulo_classificados}**")
+        st.dataframe(
+            classificados_com_logos,
+            column_config={
+                "Logo": st.column_config.ImageColumn("Logo", width="small"),
+            },
+            use_container_width=True,
+            hide_index=True,
+        )
+
+        serie = resultados_fase["Casa"] + " x " + resultados_fase["Visitante"]
+        jogos_por_time = pd.concat(
+            [
+                resultados_fase.assign(Time=resultados_fase["Casa"], Serie=serie),
+                resultados_fase.assign(
+                    Time=resultados_fase["Visitante"], Serie=serie
+                ),
+            ],
+            ignore_index=True,
+        )
+        jogos_por_time["Vitoria"] = (
+            jogos_por_time["Time"] == jogos_por_time["Vencedor"]
+        ).astype(int)
+        jogos_por_time = jogos_por_time.sort_values(
+            ["Rodada", "Serie", "Time", "Jogo da série"]
+        )
+        jogos_por_time["Vitorias acumuladas"] = (
+            jogos_por_time.groupby(["Rodada", "Serie", "Time"])["Vitoria"].cumsum()
+        )
+
+        fig_playoff = px.line(
+            jogos_por_time,
+            x="Jogo da série",
+            y="Vitorias acumuladas",
+            color="Time",
+            line_group="Serie",
+            markers=True,
+            color_discrete_map={
+                time: PALETAS[time].primaria
+                for time in jogos_por_time["Time"].unique()
+            },
+        )
+        fig_playoff.update_layout(
+            template="plotly_dark",
+            paper_bgcolor="rgba(0,0,0,0)",
+            plot_bgcolor="rgba(0,0,0,0)",
+            legend=dict(
+                bgcolor="rgba(0,0,0,0)",
+                font=dict(family="Segoe UI", size=12),
+            ),
+            title=dict(
+                text=f"<b>Vitórias acumuladas por jogo — {nome_fase}</b>",
+                font=dict(family="Segoe UI", size=20),
+            ),
+            xaxis_title="Jogo da série",
+            yaxis_title="Vitórias acumuladas na série",
+            hovermode="x unified",
+        )
+        st.plotly_chart(fig_playoff, use_container_width=True)
+        st.divider()
+
+    df_result_8va, df_times_4as = playoffs_8va(tabela)
+    exibir_fase_playoff(
+        "Oitavas de final",
+        df_result_8va,
+        df_times_4as,
+        "Classificados para as quartas de final",
+    )
+
+    df_result_4as, df_times_semi = playoffs_4as(df_times_4as)
+    exibir_fase_playoff(
+        "Quartas de final",
+        df_result_4as,
+        df_times_semi,
+        "Classificados para as semifinais",
+    )
+
+    df_result_semi, df_times_final = playoffs_semi(df_times_semi)
+    exibir_fase_playoff(
+        "Semifinais",
+        df_result_semi,
+        df_times_final,
+        "Classificados para a final",
+    )
+
+    df_result_final, df_campeao = playoffs_finais(df_times_final)
+    exibir_fase_playoff(
+        "Final",
+        df_result_final,
+        df_campeao,
+        "Campeão",
+    )
 
 st.divider()
 

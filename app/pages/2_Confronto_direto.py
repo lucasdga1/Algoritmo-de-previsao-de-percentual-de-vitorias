@@ -198,7 +198,10 @@ if st.button("Simular partida", type="primary"):
 
         st.markdown("""### Histórico de confrontos diretos entre as equipes:""")
         historico = pd.read_csv(HISTORICO)
-        selecao = historico[((historico["Casa"] == casa) & (historico["Visitante"] == fora)) | ((historico["Casa"] == casa) & (historico["Visitante"] == fora))]
+        selecao = historico[
+            ((historico["Casa"] == casa) & (historico["Visitante"] == fora))
+            | ((historico["Casa"] == fora) & (historico["Visitante"] == casa))
+        ]
         for team_column, logo_column in (
             ("Casa", "Logo Casa"),
             ("Visitante", "Logo Visitante"),
@@ -225,9 +228,23 @@ if st.button("Simular partida", type="primary"):
                 "font-weight: bold" if coluna == coluna_vencedora else ""
                 for coluna in linha.index
             ]
+        def negritar_placar(linha):
+            placar_vencedor = None
+            if linha["Placar_casa"] > linha["Placar_visitante"]:
+                placar_vencedor = "Placar_casa"
+            elif linha["Placar_casa"] < linha["Placar_visitante"]:
+                placar_vencedor = "Placar_visitante"
 
+            return [
+                "font-weight: bold" if coluna == placar_vencedor else ""
+                for coluna in linha.index
+            ]
+
+        estilo = selecao.style.apply(negritar_resultado, axis=1).apply(
+            negritar_placar, axis=1
+        )
         st.dataframe(
-            selecao.style.apply(negritar_resultado, axis=1),
+            estilo,
             column_config={
                 "Logo Casa": st.column_config.ImageColumn("Logo Casa", width="small"),
                 "Logo Visitante": st.column_config.ImageColumn(

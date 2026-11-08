@@ -8,8 +8,8 @@
 ### O que você encontra no app
 
 * **📈 Preveja seu desempenho:** informe estatísticas de uma equipe e veja a estimativa de percentual e total de vitórias, além da comparação com a classificação da NBB.
-* **🥊 Confronto direto:** compare as probabilidades de vitória dos times mandante e visitante, com vantagem de mando, paleta de cores das equipes e histórico de partidas.
-* **⛹️ Simule uma temporada:** simule os jogos da temporada regular e consulte os resultados e a classificação final.
+* **🥊 Confronto direto:** compare as probabilidades de vitória dos times mandante e visitante, com vantagem de mando, paleta de cores das equipes e histórico de partidas nos dois sentidos. Os vencedores e seus placares são destacados no histórico.
+* **⛹️ Simule uma temporada:** simule os jogos da temporada regular, acompanhe as vitórias acumuladas por rodada e consulte os resultados, a classificação final e os playoffs — oitavas, quartas, semifinais e final — com placares por jogo, classificados e gráficos de vitórias acumuladas em cada série.
 * **🏆 NBB 26/27:** explore 10.000 simulações e as probabilidades de vitórias, posições na tabela, título, Top 4 e playoffs ao longo da temporada.
 * **ℹ️ Sobre:** consulte a metodologia, as fontes de dados e os termos de uso.
 
@@ -50,7 +50,9 @@
 
 * Organização do código em pipelines de preparação de dados, treinamento, inferência e simulação.
 * Inclusão de ratings Elo calculados a partir do histórico da NBB para estimar resultados e probabilidades de confrontos.
-* Implementação de simulação de partidas, temporada regular e simulações de Monte Carlo, incluindo o caminho de vitórias por rodada.
+* Implementação de simulação de partidas, temporada regular e simulações de Monte Carlo, com gráficos de vitórias acumuladas por rodada e, na simulação de temporada, por jogo de cada série dos playoffs.
+* Expansão da simulação de temporada para incluir oitavas de final, quartas de final, semifinais e final, exibindo resultados, classificados e campeão.
+* Aprimoramento do histórico de confrontos diretos para incluir partidas com mandante e visitante invertidos e destacar o time vencedor e seu placar.
 * Criação do aplicativo Streamlit com previsões personalizadas, confrontos diretos, simulação de temporada, projeções para a NBB 26/27 e página informativa.
 * Inclusão de visualizações interativas, logos e paletas de cores associadas às equipes, além de testes automatizados para as funcionalidades principais.
 * Remoção dos pacotes compactados de HTML do repositório; os dados tratados e notebooks do projeto continuam organizados nas pastas indicadas abaixo.
